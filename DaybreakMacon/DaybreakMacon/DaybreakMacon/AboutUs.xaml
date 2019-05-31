@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:local="clr-namespace:DaybreakMacon"
+             x:Class="DaybreakMacon.AboutUs"
+             Title="About Us"
+             BackgroundColor=
+             "{x:Static local:ColorCnsts.DayBreakBackgroundColor}"
+             NavigationPage.BackButtonTitle="  " >
+
+    <ContentPage.Padding>
+        <OnPlatform x:TypeArguments="Thickness"
+                    iOS="20, 40, 20, 20"
+                    Android="20, 20, 20, 20"
+                    WinPhone="20, 20, 20, 20" />
+    </ContentPage.Padding>
+
+    <ContentPage.Content>
+
+        <ScrollView>
+
+            <StackLayout   VerticalOptions="FillAndExpand"
+                           HorizontalOptions="FillAndExpand"
+                           Orientation="Vertical"
+                           Spacing="5" >
+
+                <Label FontAttributes= "Italic" 
+				Text ="&#x0a;&quot;Everyone should have a place to call home and a stake in their community.&quot;">
+                </Label>
+
+                <Label HorizontalOptions="FillAndExpand">
+                    <Label.FormattedText>
+                        <FormattedString>
+                            
+                            <Span Text="&#x0a;Daybreak – A project of Depaul USA, is a day resource center designed to "/>
+                            <Span Text="assist homeless and impoverished persons in our community. &#x0a;" />
+
+                            <Span Text="&#x0a;Daybreak offers an escape from difficult living conditions and provides rest, " />
+                            <Span Text="sanctuary, and services designed to improve lives, restore dignity, and bring stability. " />
+                            
+                        </FormattedString>
+                    </Label.FormattedText>
+                </Label>
+
+                <Label HorizontalOptions="FillAndExpand">
+                    <Label.FormattedText>
+                        <FormattedString>
+                            
+                            <Span Text="&#x0a;Services include access to case management, healthcare, dental services, " />
+                            <Span Text="education and life skills groups; laundry and showers.&#x0a;" />
+
+                        </FormattedString>
+                    </Label.FormattedText>
+                </Label>
+                
+                <Grid RowSpacing="1" >
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="Auto" />     <!-- row 0  -->
+                        <RowDefinition Height="Auto" />     <!-- row 1  -->
+                        <RowDefinition Height="Auto" />     <!-- row 2  -->
+                        <RowDefinition Height="Auto" />     <!-- row 3  -->
+                        <RowDefinition Height="Auto" />     <!-- row 4  -->
+                        <RowDefinition Height="Auto" />     <!-- row 5  -->
+                        <RowDefinition Height="Auto" />     <!-- row 6  -->
+                        <RowDefinition Height="Auto" />     <!-- row 7  -->
+                    </Grid.RowDefinitions>
+
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="140" />
+                        <ColumnDefinition Width="*" />
+                    </Grid.ColumnDefinitions>
+
+                    <Label  Text="Monday:"  Grid.Row="0" Grid.Column="0" />
+                    <Label  Text="7:30 AM - 11 AM and &#x0a;12 PM - 4 PM"  
+                            Grid.Row="0" Grid.Column="1" />
+
+                    <Label  Text="Tuesday:"  Grid.Row="1" Grid.Column="0" />
+                    <Label  Text="12:30 PM - 4 PM"  Grid.Row="1" Grid.Column="1" />
+
+                    <Label  Text="Wednesday:"  Grid.Row="2" Grid.Column="0" />
+                    <Label  Text="7:30 AM - 11 AM and &#x0a;12 PM - 4 PM"  Grid.Row="2" Grid.Column="1" />
+
+                    <Label  Text="Thursday:"  Grid.Row="3" Grid.Column="0" />
+                    <Label  Text="7:30 AM - 11 AM and &#x0a;12 PM - 4 PM"  Grid.Row="3" Grid.Column="1" />
+
+                    <Label  Text="Friday:"  Grid.Row="4" Grid.Column="0" />
+                    <Label  Text="7:30 AM - 11 AM and &#x0a;12 PM - 4 PM"  Grid.Row="4" Grid.Column="1" />
+
+                    <Label  Text="Closed:"   Grid.Row="5" Grid.Column="0" />
+                    <Label  Text="11 AM - 12 PM on Monday, Wednesday, Thursday, and Friday."  
+                            Grid.Row="5" Grid.Column="1" />
+
+                    <Label  Text="Phone:"  Grid.Row="6" Grid.Column="0" />                    
+                    <Label  Text="{x:Static local:MyStrngCnsts.daybreakNumbr}" 
+                            TextColor="Blue"  Grid.Row="6" Grid.Column="1" >
+
+                        <Label.GestureRecognizers>
+                            <TapGestureRecognizer 
+                            Tapped = "OnNumbrTapped"
+                            NumberOfTapsRequired="1"/>
+                        </Label.GestureRecognizers>
+                    </Label>
+
+                    <Label  Text="Address:"  Grid.Row="7" Grid.Column="0" />
+                    <Label  Text="{x:Static local:MyStrngCnsts.daybreakAddr}" 
+                            TextColor="Blue" Grid.Row="7" Grid.Column="1">
+
+                        <Label.GestureRecognizers>
+                            <TapGestureRecognizer 
+                            Tapped = "OnAddrTapped"
+                            NumberOfTapsRequired="1"/>
+                        </Label.GestureRecognizers>
+                    </Label>
+                </Grid>
+
+            </StackLayout>
+
+        </ScrollView>
+
+    </ContentPage.Content>
+    
+</ContentPage>

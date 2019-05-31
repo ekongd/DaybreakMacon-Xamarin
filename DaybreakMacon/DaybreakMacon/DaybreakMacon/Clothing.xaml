@@ -1,0 +1,275 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="DaybreakMacon.Clothing"
+             
+             xmlns:local="clr-namespace:DaybreakMacon"
+             Title="Clothing Services"
+             BackgroundColor=
+             "{x:Static local:ColorCnsts.DayBreakBackgroundColor}"
+             NavigationPage.BackButtonTitle="  ">  
+    
+    <ContentPage.Padding>
+
+        <OnPlatform x:TypeArguments="Thickness"
+                    iOS="20, 40, 20, 20"
+                    Android="20, 20, 20, 20"
+                    WinPhone="20, 20, 20, 20" />
+    </ContentPage.Padding>
+
+    <ScrollView>
+
+        <StackLayout   VerticalOptions="FillAndExpand"
+                       HorizontalOptions="FillAndExpand"
+                       Orientation="Vertical"
+                       Spacing="2" >
+
+
+            <!-- ****** Family Advancement Ministries  *******  -->
+
+            <Label Text="&#x0a;Family Advancement Ministries" FontAttributes="Bold"/>
+            <Label HorizontalOptions="FillAndExpand">
+                <Label.FormattedText>
+                    <FormattedString>
+                        <Span Text="Children's clothing to age 6."/>
+                        <Span Text="&#x0a;Maternity clothes." />
+                        <Span Text="&#x0a;Call for an appointment and leave name and number." />
+                    </FormattedString>
+                </Label.FormattedText>
+            </Label>
+            <Grid RowSpacing="2">
+                                 <!-- 2 rows 2 columns  -->
+                <Grid.RowDefinitions >
+                    <RowDefinition Height="Auto" />
+                    <RowDefinition Height="Auto" />
+                </Grid.RowDefinitions>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="140" />
+                    <ColumnDefinition Width="*" />
+                </Grid.ColumnDefinitions>
+
+                <Label Text="Phone:" 
+                   Grid.Row="0" Grid.Column="0" />
+                <Label  Text="{x:Static local:MyStrngCnsts.fmlyAdvNumbr}" 
+                        Grid.Row="0" Grid.Column="1" 
+                        TextColor="Blue">
+                    <Label.GestureRecognizers>
+                        <TapGestureRecognizer 
+                            Tapped = "OnNumbrTapped"
+                            NumberOfTapsRequired="1"/>
+                    </Label.GestureRecognizers>
+                </Label>
+
+                <Label Text="Address:" 
+                    Grid.Row="1" Grid.Column="0" />
+                <Label Text="{x:Static local:MyStrngCnsts.fmlyAdvAddr}" 
+                       Grid.Row="1" Grid.Column="1" 
+                       TextColor="Blue">
+                    <Label.GestureRecognizers>
+                        <TapGestureRecognizer 
+                           Tapped = "OnAddrTapped"
+                           NumberOfTapsRequired="1"/>
+                    </Label.GestureRecognizers>
+                </Label>
+            </Grid>
+            
+
+            <!-- ****** Loaves and Fishes  *******  -->
+
+            <Label Text="&#x0a;Loaves and Fishes Ministries" FontAttributes="Bold"/>
+            <Label Text="Available Monday, Tuesday, Thursday, and Friday." />
+            <Label Text="Available every 30 days." />
+            <Grid RowSpacing="2">
+                                <!-- 2 rows 2 columns  -->
+                <Grid.RowDefinitions >
+                    <RowDefinition Height="Auto" />
+                    <RowDefinition Height="Auto" />
+                </Grid.RowDefinitions>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="140" />
+                    <ColumnDefinition Width="*" />
+                </Grid.ColumnDefinitions>
+
+                <Label Text="Phone:" 
+                   Grid.Row="0" Grid.Column="0" />
+                <Label  Text="{x:Static local:MyStrngCnsts.loavesFshNumbr}" 
+                        Grid.Row="0" Grid.Column="1" 
+                        TextColor="Blue">
+                    <Label.GestureRecognizers>
+                        <TapGestureRecognizer 
+                           Tapped = "OnNumbrTapped"
+                           NumberOfTapsRequired="1"/>
+                    </Label.GestureRecognizers>
+                </Label>
+
+                <Label Text="Address:" 
+                    Grid.Row="1" Grid.Column="0" />
+                <Label  Text="{x:Static local:MyStrngCnsts.loavesFshAddr}" 
+                        Grid.Row="1" Grid.Column="1" 
+                        TextColor="Blue">
+                    <Label.GestureRecognizers>
+                        <TapGestureRecognizer 
+                           Tapped = "OnAddrTapped"
+                           NumberOfTapsRequired="1"/>
+                    </Label.GestureRecognizers>
+                </Label>
+            </Grid>
+
+
+            <!-- ****** Macon Outreach at Mulberry  *******  -->
+
+            <Label Text="&#x0a;Macon Outreach at Mulberry" FontAttributes="Bold"/>
+            <Label HorizontalOptions="FillAndExpand">
+                <Label.FormattedText>
+                    <FormattedString>
+                        <Span Text="Must get a number before 9 AM."/>
+                        <Span Text="&#x0a;Available every 90 days." />
+                    </FormattedString>
+                </Label.FormattedText>
+            </Label>
+            <Grid RowSpacing="2">
+                                        <!-- 2 rows 2 columns  -->
+                <Grid.RowDefinitions >
+                    <RowDefinition Height="Auto" />
+                    <RowDefinition Height="Auto" />
+                    <RowDefinition Height="Auto" />
+                </Grid.RowDefinitions>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="140" />
+                    <ColumnDefinition Width="*" />
+                </Grid.ColumnDefinitions>
+
+                <Label Text="Tuesday:" 
+                   Grid.Row="0" Grid.Column="0" />
+                <Label Text="9 AM - 12 PM.:" 
+                   Grid.Row="0" Grid.Column="1" />
+                
+                <Label Text="Phone:" 
+                   Grid.Row="1" Grid.Column="0" />
+                <Label  Text="{x:Static local:MyStrngCnsts.mcnOutrchNumbr}" 
+                        Grid.Row="1" Grid.Column="1" 
+                        TextColor="Blue">
+                    <Label.GestureRecognizers>
+                        <TapGestureRecognizer 
+                           Tapped = "OnNumbrTapped"
+                           NumberOfTapsRequired="1"/>
+                    </Label.GestureRecognizers>
+                </Label>
+
+                <Label Text="Address:" 
+                    Grid.Row="2" Grid.Column="0" />
+                <Label  Text="{x:Static local:MyStrngCnsts.mcnOutrchAddr}" 
+                        Grid.Row="2" Grid.Column="1" 
+                        TextColor="Blue">
+                    <Label.GestureRecognizers>
+                        <TapGestureRecognizer 
+                           Tapped = "OnAddrTapped"
+                           NumberOfTapsRequired="1"/>
+                    </Label.GestureRecognizers>
+                </Label>
+            </Grid>
+
+        <!-- ****** Rescue Mission of Middle Georgia  *******  -->
+
+            <Label Text="&#x0a;Rescue Mission of Middle Georgia" FontAttributes="Bold"/>
+            <Label HorizontalOptions="FillAndExpand">
+                <Label.FormattedText>
+                    <FormattedString>
+                        <Span Text="Fire victims with Red Cross forms and agency referrals."/>
+                        <Span Text="&#x0a;Available every 90 days." />
+                    </FormattedString>
+                </Label.FormattedText>
+            </Label>
+            <Grid RowSpacing="2">
+                                             <!-- 2 rows 2 columns  -->
+                <Grid.RowDefinitions >
+                    <RowDefinition Height="Auto" />
+                    <RowDefinition Height="Auto" />
+                </Grid.RowDefinitions>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="140" />
+                    <ColumnDefinition Width="*" />
+                </Grid.ColumnDefinitions>
+
+                <Label Text="Phone:" 
+                   Grid.Row="0" Grid.Column="0" />
+                <Label  Text="{x:Static local:MyStrngCnsts.rscMssnNumbr}" 
+                        Grid.Row="0" Grid.Column="1" 
+                        TextColor="Blue">
+                    <Label.GestureRecognizers>
+                        <TapGestureRecognizer 
+                           Tapped = "OnNumbrTapped"
+                           NumberOfTapsRequired="1"/>
+                    </Label.GestureRecognizers>
+                </Label>
+
+                <Label Text="Address:" 
+                    Grid.Row="1" Grid.Column="0" />
+                <Label  Text="{x:Static local:MyStrngCnsts.rscMssnAddr}" 
+                        Grid.Row="1" Grid.Column="1" 
+                        TextColor="Blue">
+                    <Label.GestureRecognizers>
+                        <TapGestureRecognizer 
+                           Tapped = "OnAddrTapped"
+                           NumberOfTapsRequired="1"/>
+                    </Label.GestureRecognizers>
+                </Label>
+            </Grid>
+
+          <!-- ****** Salvation Army  *******  -->
+
+            <Label Text="&#x0a;Salvation Army" FontAttributes="Bold"/>
+            <Label HorizontalOptions="FillAndExpand">
+                <Label.FormattedText>
+                    <FormattedString>
+                        <Span Text="Clothing vouchers on "/>
+                        <Span Text="Wednesdays only. &#x0a;" FontAttributes="Bold"/>
+                        <Span Text="First 5 to apply from 8 AM to 11:30 AM. &#x0a;" />
+                        <Span Text="Call ahead for details." />
+                    </FormattedString>
+                </Label.FormattedText>
+            </Label>
+            <Grid RowSpacing="2">
+                <!-- 3 rows 2 columns  -->
+                <Grid.RowDefinitions >
+                    <RowDefinition Height="Auto" />
+                    <RowDefinition Height="Auto" />
+                    <RowDefinition Height="Auto" />
+                </Grid.RowDefinitions>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="140" />
+                    <ColumnDefinition Width="*" />
+                </Grid.ColumnDefinitions>
+
+                <Label Text="Phone:" 
+                   Grid.Row="0" Grid.Column="0" />
+                <Label  Text="{x:Static local:MyStrngCnsts.salvArmyNumbr}" 
+                        Grid.Row="0" Grid.Column="1" 
+                        TextColor="Blue">
+                    <Label.GestureRecognizers>
+                        <TapGestureRecognizer 
+                            Tapped = "OnNumbrTapped"
+                            NumberOfTapsRequired="1"/>
+                    </Label.GestureRecognizers>
+                </Label>
+                <Label Text="Extension 100" 
+                   Grid.Row="1" Grid.Column="1" />
+
+                <Label Text="Address:" 
+                    Grid.Row="2" Grid.Column="0" />
+                <Label Text="{x:Static local:MyStrngCnsts.salvArmyAddr}" 
+                       Grid.Row="2" Grid.Column="1" 
+                       TextColor="Blue">
+                    <Label.GestureRecognizers>
+                        <TapGestureRecognizer 
+                           Tapped = "OnAddrTapped"
+                           NumberOfTapsRequired="1"/>
+                    </Label.GestureRecognizers>
+                </Label>
+            </Grid>
+
+        </StackLayout>
+        
+    </ScrollView>
+    
+</ContentPage>

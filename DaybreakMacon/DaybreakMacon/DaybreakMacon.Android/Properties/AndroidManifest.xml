@@ -1,0 +1,5 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android" android:versionCode="6" android:versionName="3.5" package="org.depaulusa.maconga.daybreakmacon" android:installLocation="internalOnly">
+	<uses-sdk android:minSdkVersion="21" android:targetSdkVersion="28" />
+	<application android:label="Daybreak Macon" android:icon="@drawable/playstore_icon"></application>
+</manifest>

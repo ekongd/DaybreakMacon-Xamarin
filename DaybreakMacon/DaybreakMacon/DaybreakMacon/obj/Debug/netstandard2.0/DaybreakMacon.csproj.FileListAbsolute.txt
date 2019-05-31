@@ -1,0 +1,199 @@
+C:/Users/ekong_d/source/repos/DaybreakMacon/DaybreakMacon/DaybreakMacon/bin/Debug/netstandard2.0/DaybreakMacon.deps.json
+C:/Users/ekong_d/source/repos/DaybreakMacon/DaybreakMacon/DaybreakMacon/bin/Debug/netstandard2.0/DaybreakMacon.dll
+C:/Users/ekong_d/source/repos/DaybreakMacon/DaybreakMacon/DaybreakMacon/bin/Debug/netstandard2.0/DaybreakMacon.pdb
+C:/Users/ekong_d/source/repos/DaybreakMacon/DaybreakMacon/DaybreakMacon/obj/Debug/netstandard2.0/AboutUs.xaml.g.cs
+C:/Users/ekong_d/source/repos/DaybreakMacon/DaybreakMacon/DaybreakMacon/obj/Debug/netstandard2.0/App.xaml.g.cs
+C:/Users/ekong_d/source/repos/DaybreakMacon/DaybreakMacon/DaybreakMacon/obj/Debug/netstandard2.0/Clothing.xaml.g.cs
+C:/Users/ekong_d/source/repos/DaybreakMacon/DaybreakMacon/DaybreakMacon/obj/Debug/netstandard2.0/FoodBnkPage.xaml.g.cs
+C:/Users/ekong_d/source/repos/DaybreakMacon/DaybreakMacon/DaybreakMacon/obj/Debug/netstandard2.0/HousingPage.xaml.g.cs
+C:/Users/ekong_d/source/repos/DaybreakMacon/DaybreakMacon/DaybreakMacon/obj/Debug/netstandard2.0/LaundryPage.xaml.g.cs
+C:/Users/ekong_d/source/repos/DaybreakMacon/DaybreakMacon/DaybreakMacon/obj/Debug/netstandard2.0/MainPage.xaml.g.cs
+C:/Users/ekong_d/source/repos/DaybreakMacon/DaybreakMacon/DaybreakMacon/obj/Debug/netstandard2.0/MainPage_iOS.xaml.g.cs
+C:/Users/ekong_d/source/repos/DaybreakMacon/DaybreakMacon/DaybreakMacon/obj/Debug/netstandard2.0/MainPage_iOSDetail.xaml.g.cs
+C:/Users/ekong_d/source/repos/DaybreakMacon/DaybreakMacon/DaybreakMacon/obj/Debug/netstandard2.0/MainPage_iOSMaster.xaml.g.cs
+C:/Users/ekong_d/source/repos/DaybreakMacon/DaybreakMacon/DaybreakMacon/obj/Debug/netstandard2.0/MealsPage.xaml.g.cs
+C:/Users/ekong_d/source/repos/DaybreakMacon/DaybreakMacon/DaybreakMacon/obj/Debug/netstandard2.0/MedSrvcsPage.xaml.g.cs
+C:/Users/ekong_d/source/repos/DaybreakMacon/DaybreakMacon/DaybreakMacon/obj/Debug/netstandard2.0/OthSrvsPage.xaml.g.cs
+C:/Users/ekong_d/source/repos/DaybreakMacon/DaybreakMacon/DaybreakMacon/obj/Debug/netstandard2.0/Services.xaml.g.cs
+C:/Users/ekong_d/source/repos/DaybreakMacon/DaybreakMacon/DaybreakMacon/obj/Debug/netstandard2.0/ShowersPage.xaml.g.cs
+C:/Users/ekong_d/source/repos/DaybreakMacon/DaybreakMacon/DaybreakMacon/obj/Debug/netstandard2.0/DaybreakMacon.csproj.CoreCompileInputs.cache
+C:/Users/ekong_d/source/repos/DaybreakMacon/DaybreakMacon/DaybreakMacon/obj/Debug/netstandard2.0/DaybreakMacon.AssemblyInfoInputs.cache
+C:/Users/ekong_d/source/repos/DaybreakMacon/DaybreakMacon/DaybreakMacon/obj/Debug/netstandard2.0/DaybreakMacon.AssemblyInfo.cs
+C:/Users/ekong_d/source/repos/DaybreakMacon/DaybreakMacon/DaybreakMacon/obj/Debug/netstandard2.0/XamlC.stamp
+C:/Users/ekong_d/source/repos/DaybreakMacon/DaybreakMacon/DaybreakMacon/obj/Debug/netstandard2.0/DaybreakMacon.dll
+C:/Users/ekong_d/source/repos/DaybreakMacon/DaybreakMacon/DaybreakMacon/obj/Debug/netstandard2.0/DaybreakMacon.pdb
+/XamarinProjects/DaybreakMacon/DaybreakMacon/DaybreakMacon/bin/Debug/netstandard2.0/DaybreakMacon.deps.json
+/XamarinProjects/DaybreakMacon/DaybreakMacon/DaybreakMacon/bin/Debug/netstandard2.0/DaybreakMacon.dll
+/XamarinProjects/DaybreakMacon/DaybreakMacon/DaybreakMacon/bin/Debug/netstandard2.0/DaybreakMacon.pdb
+/XamarinProjects/DaybreakMacon/DaybreakMacon/DaybreakMacon/obj/Debug/netstandard2.0/DaybreakMacon.csprojAssemblyReference.cache
+/XamarinProjects/DaybreakMacon/DaybreakMacon/DaybreakMacon/obj/Debug/netstandard2.0/AboutUs.xaml.g.cs
+/XamarinProjects/DaybreakMacon/DaybreakMacon/DaybreakMacon/obj/Debug/netstandard2.0/App.xaml.g.cs
+/XamarinProjects/DaybreakMacon/DaybreakMacon/DaybreakMacon/obj/Debug/netstandard2.0/Clothing.xaml.g.cs
+/XamarinProjects/DaybreakMacon/DaybreakMacon/DaybreakMacon/obj/Debug/netstandard2.0/FoodBnkPage.xaml.g.cs
+/XamarinProjects/DaybreakMacon/DaybreakMacon/DaybreakMacon/obj/Debug/netstandard2.0/HousingPage.xaml.g.cs
+/XamarinProjects/DaybreakMacon/DaybreakMacon/DaybreakMacon/obj/Debug/netstandard2.0/LaundryPage.xaml.g.cs
+/XamarinProjects/DaybreakMacon/DaybreakMacon/DaybreakMacon/obj/Debug/netstandard2.0/MainPage.xaml.g.cs
+/XamarinProjects/DaybreakMacon/DaybreakMacon/DaybreakMacon/obj/Debug/netstandard2.0/MainPage_iOS.xaml.g.cs
+/XamarinProjects/DaybreakMacon/DaybreakMacon/DaybreakMacon/obj/Debug/netstandard2.0/MainPage_iOSDetail.xaml.g.cs
+/XamarinProjects/DaybreakMacon/DaybreakMacon/DaybreakMacon/obj/Debug/netstandard2.0/MainPage_iOSMaster.xaml.g.cs
+/XamarinProjects/DaybreakMacon/DaybreakMacon/DaybreakMacon/obj/Debug/netstandard2.0/MealsPage.xaml.g.cs
+/XamarinProjects/DaybreakMacon/DaybreakMacon/DaybreakMacon/obj/Debug/netstandard2.0/MedSrvcsPage.xaml.g.cs
+/XamarinProjects/DaybreakMacon/DaybreakMacon/DaybreakMacon/obj/Debug/netstandard2.0/OthSrvsPage.xaml.g.cs
+/XamarinProjects/DaybreakMacon/DaybreakMacon/DaybreakMacon/obj/Debug/netstandard2.0/Services.xaml.g.cs
+/XamarinProjects/DaybreakMacon/DaybreakMacon/DaybreakMacon/obj/Debug/netstandard2.0/ShowersPage.xaml.g.cs
+/XamarinProjects/DaybreakMacon/DaybreakMacon/DaybreakMacon/obj/Debug/netstandard2.0/DaybreakMacon.csproj.CoreCompileInputs.cache
+/XamarinProjects/DaybreakMacon/DaybreakMacon/DaybreakMacon/obj/Debug/netstandard2.0/DaybreakMacon.AssemblyInfoInputs.cache
+/XamarinProjects/DaybreakMacon/DaybreakMacon/DaybreakMacon/obj/Debug/netstandard2.0/DaybreakMacon.AssemblyInfo.cs
+/XamarinProjects/DaybreakMacon/DaybreakMacon/DaybreakMacon/obj/Debug/netstandard2.0/XamlC.stamp
+/XamarinProjects/DaybreakMacon/DaybreakMacon/DaybreakMacon/obj/Debug/netstandard2.0/DaybreakMacon.dll
+/XamarinProjects/DaybreakMacon/DaybreakMacon/DaybreakMacon/obj/Debug/netstandard2.0/DaybreakMacon.pdb
+/XamarinProjects/DaybreakMacon/DaybreakMacon/DaybreakMacon/obj/Debug/netstandard2.0/LatestNewsPage.xaml.g.cs
+/XamarinProjects/ekongd/DaybreakMacon-Xamarin/DaybreakMacon/DaybreakMacon/bin/Debug/netstandard2.0/DaybreakMacon.deps.json
+/XamarinProjects/ekongd/DaybreakMacon-Xamarin/DaybreakMacon/DaybreakMacon/bin/Debug/netstandard2.0/DaybreakMacon.dll
+/XamarinProjects/ekongd/DaybreakMacon-Xamarin/DaybreakMacon/DaybreakMacon/bin/Debug/netstandard2.0/DaybreakMacon.pdb
+/XamarinProjects/ekongd/DaybreakMacon-Xamarin/DaybreakMacon/DaybreakMacon/obj/Debug/netstandard2.0/DaybreakMacon.csprojAssemblyReference.cache
+/XamarinProjects/ekongd/DaybreakMacon-Xamarin/DaybreakMacon/DaybreakMacon/obj/Debug/netstandard2.0/AboutUs.xaml.g.cs
+/XamarinProjects/ekongd/DaybreakMacon-Xamarin/DaybreakMacon/DaybreakMacon/obj/Debug/netstandard2.0/App.xaml.g.cs
+/XamarinProjects/ekongd/DaybreakMacon-Xamarin/DaybreakMacon/DaybreakMacon/obj/Debug/netstandard2.0/Clothing.xaml.g.cs
+/XamarinProjects/ekongd/DaybreakMacon-Xamarin/DaybreakMacon/DaybreakMacon/obj/Debug/netstandard2.0/CounselingPage.xaml.g.cs
+/XamarinProjects/ekongd/DaybreakMacon-Xamarin/DaybreakMacon/DaybreakMacon/obj/Debug/netstandard2.0/DentalPage.xaml.g.cs
+/XamarinProjects/ekongd/DaybreakMacon-Xamarin/DaybreakMacon/DaybreakMacon/obj/Debug/netstandard2.0/FoodBnkPage.xaml.g.cs
+/XamarinProjects/ekongd/DaybreakMacon-Xamarin/DaybreakMacon/DaybreakMacon/obj/Debug/netstandard2.0/HousingPage.xaml.g.cs
+/XamarinProjects/ekongd/DaybreakMacon-Xamarin/DaybreakMacon/DaybreakMacon/obj/Debug/netstandard2.0/LatestNewsPage.xaml.g.cs
+/XamarinProjects/ekongd/DaybreakMacon-Xamarin/DaybreakMacon/DaybreakMacon/obj/Debug/netstandard2.0/LaundryPage.xaml.g.cs
+/XamarinProjects/ekongd/DaybreakMacon-Xamarin/DaybreakMacon/DaybreakMacon/obj/Debug/netstandard2.0/MainPage.xaml.g.cs
+/XamarinProjects/ekongd/DaybreakMacon-Xamarin/DaybreakMacon/DaybreakMacon/obj/Debug/netstandard2.0/MainPage_iOS.xaml.g.cs
+/XamarinProjects/ekongd/DaybreakMacon-Xamarin/DaybreakMacon/DaybreakMacon/obj/Debug/netstandard2.0/MainPage_iOSDetail.xaml.g.cs
+/XamarinProjects/ekongd/DaybreakMacon-Xamarin/DaybreakMacon/DaybreakMacon/obj/Debug/netstandard2.0/MainPage_iOSMaster.xaml.g.cs
+/XamarinProjects/ekongd/DaybreakMacon-Xamarin/DaybreakMacon/DaybreakMacon/obj/Debug/netstandard2.0/MealsPage.xaml.g.cs
+/XamarinProjects/ekongd/DaybreakMacon-Xamarin/DaybreakMacon/DaybreakMacon/obj/Debug/netstandard2.0/MedicalCarePage.xaml.g.cs
+/XamarinProjects/ekongd/DaybreakMacon-Xamarin/DaybreakMacon/DaybreakMacon/obj/Debug/netstandard2.0/MedSrvcsPage.xaml.g.cs
+/XamarinProjects/ekongd/DaybreakMacon-Xamarin/DaybreakMacon/DaybreakMacon/obj/Debug/netstandard2.0/OthSrvsPage.xaml.g.cs
+/XamarinProjects/ekongd/DaybreakMacon-Xamarin/DaybreakMacon/DaybreakMacon/obj/Debug/netstandard2.0/PrescriptionPage.xaml.g.cs
+/XamarinProjects/ekongd/DaybreakMacon-Xamarin/DaybreakMacon/DaybreakMacon/obj/Debug/netstandard2.0/Services.xaml.g.cs
+/XamarinProjects/ekongd/DaybreakMacon-Xamarin/DaybreakMacon/DaybreakMacon/obj/Debug/netstandard2.0/ShowersPage.xaml.g.cs
+/XamarinProjects/ekongd/DaybreakMacon-Xamarin/DaybreakMacon/DaybreakMacon/obj/Debug/netstandard2.0/DaybreakMacon.csproj.CoreCompileInputs.cache
+/XamarinProjects/ekongd/DaybreakMacon-Xamarin/DaybreakMacon/DaybreakMacon/obj/Debug/netstandard2.0/DaybreakMacon.AssemblyInfoInputs.cache
+/XamarinProjects/ekongd/DaybreakMacon-Xamarin/DaybreakMacon/DaybreakMacon/obj/Debug/netstandard2.0/DaybreakMacon.AssemblyInfo.cs
+/XamarinProjects/ekongd/DaybreakMacon-Xamarin/DaybreakMacon/DaybreakMacon/obj/Debug/netstandard2.0/XamlC.stamp
+/XamarinProjects/ekongd/DaybreakMacon-Xamarin/DaybreakMacon/DaybreakMacon/obj/Debug/netstandard2.0/DaybreakMacon.dll
+/XamarinProjects/ekongd/DaybreakMacon-Xamarin/DaybreakMacon/DaybreakMacon/obj/Debug/netstandard2.0/DaybreakMacon.pdb
+C:/Users/ekong_d/Desktop/DaybreakMacon-Xamarin/DaybreakMacon/DaybreakMacon/bin/Debug/netstandard2.0/DaybreakMacon.deps.json
+C:/Users/ekong_d/Desktop/DaybreakMacon-Xamarin/DaybreakMacon/DaybreakMacon/bin/Debug/netstandard2.0/DaybreakMacon.dll
+C:/Users/ekong_d/Desktop/DaybreakMacon-Xamarin/DaybreakMacon/DaybreakMacon/bin/Debug/netstandard2.0/DaybreakMacon.pdb
+C:/Users/ekong_d/Desktop/DaybreakMacon-Xamarin/DaybreakMacon/DaybreakMacon/obj/Debug/netstandard2.0/AboutUs.xaml.g.cs
+C:/Users/ekong_d/Desktop/DaybreakMacon-Xamarin/DaybreakMacon/DaybreakMacon/obj/Debug/netstandard2.0/App.xaml.g.cs
+C:/Users/ekong_d/Desktop/DaybreakMacon-Xamarin/DaybreakMacon/DaybreakMacon/obj/Debug/netstandard2.0/Clothing.xaml.g.cs
+C:/Users/ekong_d/Desktop/DaybreakMacon-Xamarin/DaybreakMacon/DaybreakMacon/obj/Debug/netstandard2.0/CounselingPage.xaml.g.cs
+C:/Users/ekong_d/Desktop/DaybreakMacon-Xamarin/DaybreakMacon/DaybreakMacon/obj/Debug/netstandard2.0/DentalPage.xaml.g.cs
+C:/Users/ekong_d/Desktop/DaybreakMacon-Xamarin/DaybreakMacon/DaybreakMacon/obj/Debug/netstandard2.0/FoodBnkPage.xaml.g.cs
+C:/Users/ekong_d/Desktop/DaybreakMacon-Xamarin/DaybreakMacon/DaybreakMacon/obj/Debug/netstandard2.0/HousingPage.xaml.g.cs
+C:/Users/ekong_d/Desktop/DaybreakMacon-Xamarin/DaybreakMacon/DaybreakMacon/obj/Debug/netstandard2.0/LatestNewsPage.xaml.g.cs
+C:/Users/ekong_d/Desktop/DaybreakMacon-Xamarin/DaybreakMacon/DaybreakMacon/obj/Debug/netstandard2.0/LaundryPage.xaml.g.cs
+C:/Users/ekong_d/Desktop/DaybreakMacon-Xamarin/DaybreakMacon/DaybreakMacon/obj/Debug/netstandard2.0/MainPage.xaml.g.cs
+C:/Users/ekong_d/Desktop/DaybreakMacon-Xamarin/DaybreakMacon/DaybreakMacon/obj/Debug/netstandard2.0/MainPage_iOS.xaml.g.cs
+C:/Users/ekong_d/Desktop/DaybreakMacon-Xamarin/DaybreakMacon/DaybreakMacon/obj/Debug/netstandard2.0/MainPage_iOSDetail.xaml.g.cs
+C:/Users/ekong_d/Desktop/DaybreakMacon-Xamarin/DaybreakMacon/DaybreakMacon/obj/Debug/netstandard2.0/MainPage_iOSMaster.xaml.g.cs
+C:/Users/ekong_d/Desktop/DaybreakMacon-Xamarin/DaybreakMacon/DaybreakMacon/obj/Debug/netstandard2.0/MealsPage.xaml.g.cs
+C:/Users/ekong_d/Desktop/DaybreakMacon-Xamarin/DaybreakMacon/DaybreakMacon/obj/Debug/netstandard2.0/MedicalCarePage.xaml.g.cs
+C:/Users/ekong_d/Desktop/DaybreakMacon-Xamarin/DaybreakMacon/DaybreakMacon/obj/Debug/netstandard2.0/MedSrvcsPage.xaml.g.cs
+C:/Users/ekong_d/Desktop/DaybreakMacon-Xamarin/DaybreakMacon/DaybreakMacon/obj/Debug/netstandard2.0/OthSrvsPage.xaml.g.cs
+C:/Users/ekong_d/Desktop/DaybreakMacon-Xamarin/DaybreakMacon/DaybreakMacon/obj/Debug/netstandard2.0/PrescriptionPage.xaml.g.cs
+C:/Users/ekong_d/Desktop/DaybreakMacon-Xamarin/DaybreakMacon/DaybreakMacon/obj/Debug/netstandard2.0/Services.xaml.g.cs
+C:/Users/ekong_d/Desktop/DaybreakMacon-Xamarin/DaybreakMacon/DaybreakMacon/obj/Debug/netstandard2.0/ShowersPage.xaml.g.cs
+C:/Users/ekong_d/Desktop/DaybreakMacon-Xamarin/DaybreakMacon/DaybreakMacon/obj/Debug/netstandard2.0/DaybreakMacon.csproj.CoreCompileInputs.cache
+C:/Users/ekong_d/Desktop/DaybreakMacon-Xamarin/DaybreakMacon/DaybreakMacon/obj/Debug/netstandard2.0/DaybreakMacon.AssemblyInfoInputs.cache
+C:/Users/ekong_d/Desktop/DaybreakMacon-Xamarin/DaybreakMacon/DaybreakMacon/obj/Debug/netstandard2.0/DaybreakMacon.AssemblyInfo.cs
+C:/Users/ekong_d/Desktop/DaybreakMacon-Xamarin/DaybreakMacon/DaybreakMacon/obj/Debug/netstandard2.0/XamlC.stamp
+C:/Users/ekong_d/Desktop/DaybreakMacon-Xamarin/DaybreakMacon/DaybreakMacon/obj/Debug/netstandard2.0/DaybreakMacon.dll
+C:/Users/ekong_d/Desktop/DaybreakMacon-Xamarin/DaybreakMacon/DaybreakMacon/obj/Debug/netstandard2.0/DaybreakMacon.pdb
+C:/Users/ekong_d/Desktop/DaybreakMacon-Xamarin/DaybreakMacon/DaybreakMacon/obj/Debug/netstandard2.0/DaybreakMacon.csprojAssemblyReference.cache
+/Users/donaldekong/Documents/GitHub/DaybreakMacon-Xamarin/DaybreakMacon/DaybreakMacon/bin/Debug/netstandard2.0/DaybreakMacon.deps.json
+/Users/donaldekong/Documents/GitHub/DaybreakMacon-Xamarin/DaybreakMacon/DaybreakMacon/bin/Debug/netstandard2.0/DaybreakMacon.dll
+/Users/donaldekong/Documents/GitHub/DaybreakMacon-Xamarin/DaybreakMacon/DaybreakMacon/bin/Debug/netstandard2.0/DaybreakMacon.pdb
+/Users/donaldekong/Documents/GitHub/DaybreakMacon-Xamarin/DaybreakMacon/DaybreakMacon/obj/Debug/netstandard2.0/DaybreakMacon.csprojAssemblyReference.cache
+/Users/donaldekong/Documents/GitHub/DaybreakMacon-Xamarin/DaybreakMacon/DaybreakMacon/obj/Debug/netstandard2.0/AboutUs.xaml.g.cs
+/Users/donaldekong/Documents/GitHub/DaybreakMacon-Xamarin/DaybreakMacon/DaybreakMacon/obj/Debug/netstandard2.0/App.xaml.g.cs
+/Users/donaldekong/Documents/GitHub/DaybreakMacon-Xamarin/DaybreakMacon/DaybreakMacon/obj/Debug/netstandard2.0/Clothing.xaml.g.cs
+/Users/donaldekong/Documents/GitHub/DaybreakMacon-Xamarin/DaybreakMacon/DaybreakMacon/obj/Debug/netstandard2.0/CounselingPage.xaml.g.cs
+/Users/donaldekong/Documents/GitHub/DaybreakMacon-Xamarin/DaybreakMacon/DaybreakMacon/obj/Debug/netstandard2.0/DentalPage.xaml.g.cs
+/Users/donaldekong/Documents/GitHub/DaybreakMacon-Xamarin/DaybreakMacon/DaybreakMacon/obj/Debug/netstandard2.0/FoodBnkPage.xaml.g.cs
+/Users/donaldekong/Documents/GitHub/DaybreakMacon-Xamarin/DaybreakMacon/DaybreakMacon/obj/Debug/netstandard2.0/HousingPage.xaml.g.cs
+/Users/donaldekong/Documents/GitHub/DaybreakMacon-Xamarin/DaybreakMacon/DaybreakMacon/obj/Debug/netstandard2.0/LatestNewsPage.xaml.g.cs
+/Users/donaldekong/Documents/GitHub/DaybreakMacon-Xamarin/DaybreakMacon/DaybreakMacon/obj/Debug/netstandard2.0/LaundryPage.xaml.g.cs
+/Users/donaldekong/Documents/GitHub/DaybreakMacon-Xamarin/DaybreakMacon/DaybreakMacon/obj/Debug/netstandard2.0/MainPage.xaml.g.cs
+/Users/donaldekong/Documents/GitHub/DaybreakMacon-Xamarin/DaybreakMacon/DaybreakMacon/obj/Debug/netstandard2.0/MainPage_iOS.xaml.g.cs
+/Users/donaldekong/Documents/GitHub/DaybreakMacon-Xamarin/DaybreakMacon/DaybreakMacon/obj/Debug/netstandard2.0/MainPage_iOSDetail.xaml.g.cs
+/Users/donaldekong/Documents/GitHub/DaybreakMacon-Xamarin/DaybreakMacon/DaybreakMacon/obj/Debug/netstandard2.0/MainPage_iOSMaster.xaml.g.cs
+/Users/donaldekong/Documents/GitHub/DaybreakMacon-Xamarin/DaybreakMacon/DaybreakMacon/obj/Debug/netstandard2.0/MealsPage.xaml.g.cs
+/Users/donaldekong/Documents/GitHub/DaybreakMacon-Xamarin/DaybreakMacon/DaybreakMacon/obj/Debug/netstandard2.0/MedicalCarePage.xaml.g.cs
+/Users/donaldekong/Documents/GitHub/DaybreakMacon-Xamarin/DaybreakMacon/DaybreakMacon/obj/Debug/netstandard2.0/MedSrvcsPage.xaml.g.cs
+/Users/donaldekong/Documents/GitHub/DaybreakMacon-Xamarin/DaybreakMacon/DaybreakMacon/obj/Debug/netstandard2.0/OthSrvsPage.xaml.g.cs
+/Users/donaldekong/Documents/GitHub/DaybreakMacon-Xamarin/DaybreakMacon/DaybreakMacon/obj/Debug/netstandard2.0/PrescriptionPage.xaml.g.cs
+/Users/donaldekong/Documents/GitHub/DaybreakMacon-Xamarin/DaybreakMacon/DaybreakMacon/obj/Debug/netstandard2.0/Services.xaml.g.cs
+/Users/donaldekong/Documents/GitHub/DaybreakMacon-Xamarin/DaybreakMacon/DaybreakMacon/obj/Debug/netstandard2.0/ShowersPage.xaml.g.cs
+/Users/donaldekong/Documents/GitHub/DaybreakMacon-Xamarin/DaybreakMacon/DaybreakMacon/obj/Debug/netstandard2.0/DaybreakMacon.csproj.CoreCompileInputs.cache
+/Users/donaldekong/Documents/GitHub/DaybreakMacon-Xamarin/DaybreakMacon/DaybreakMacon/obj/Debug/netstandard2.0/DaybreakMacon.AssemblyInfoInputs.cache
+/Users/donaldekong/Documents/GitHub/DaybreakMacon-Xamarin/DaybreakMacon/DaybreakMacon/obj/Debug/netstandard2.0/DaybreakMacon.AssemblyInfo.cs
+/Users/donaldekong/Documents/GitHub/DaybreakMacon-Xamarin/DaybreakMacon/DaybreakMacon/obj/Debug/netstandard2.0/XamlC.stamp
+/Users/donaldekong/Documents/GitHub/DaybreakMacon-Xamarin/DaybreakMacon/DaybreakMacon/obj/Debug/netstandard2.0/DaybreakMacon.dll
+/Users/donaldekong/Documents/GitHub/DaybreakMacon-Xamarin/DaybreakMacon/DaybreakMacon/obj/Debug/netstandard2.0/DaybreakMacon.pdb
+C:\Users\ekong_d\Documents\GitHub\DaybreakMacon-Xamarin\DaybreakMacon\DaybreakMacon\bin\Debug\netstandard2.0\DaybreakMacon.deps.json
+C:\Users\ekong_d\Documents\GitHub\DaybreakMacon-Xamarin\DaybreakMacon\DaybreakMacon\bin\Debug\netstandard2.0\DaybreakMacon.dll
+C:\Users\ekong_d\Documents\GitHub\DaybreakMacon-Xamarin\DaybreakMacon\DaybreakMacon\bin\Debug\netstandard2.0\DaybreakMacon.pdb
+C:\Users\ekong_d\Documents\GitHub\DaybreakMacon-Xamarin\DaybreakMacon\DaybreakMacon\obj\Debug\netstandard2.0\AboutUs.xaml.g.cs
+C:\Users\ekong_d\Documents\GitHub\DaybreakMacon-Xamarin\DaybreakMacon\DaybreakMacon\obj\Debug\netstandard2.0\App.xaml.g.cs
+C:\Users\ekong_d\Documents\GitHub\DaybreakMacon-Xamarin\DaybreakMacon\DaybreakMacon\obj\Debug\netstandard2.0\Clothing.xaml.g.cs
+C:\Users\ekong_d\Documents\GitHub\DaybreakMacon-Xamarin\DaybreakMacon\DaybreakMacon\obj\Debug\netstandard2.0\CounselingPage.xaml.g.cs
+C:\Users\ekong_d\Documents\GitHub\DaybreakMacon-Xamarin\DaybreakMacon\DaybreakMacon\obj\Debug\netstandard2.0\DentalPage.xaml.g.cs
+C:\Users\ekong_d\Documents\GitHub\DaybreakMacon-Xamarin\DaybreakMacon\DaybreakMacon\obj\Debug\netstandard2.0\FoodBnkPage.xaml.g.cs
+C:\Users\ekong_d\Documents\GitHub\DaybreakMacon-Xamarin\DaybreakMacon\DaybreakMacon\obj\Debug\netstandard2.0\HousingPage.xaml.g.cs
+C:\Users\ekong_d\Documents\GitHub\DaybreakMacon-Xamarin\DaybreakMacon\DaybreakMacon\obj\Debug\netstandard2.0\LatestNewsPage.xaml.g.cs
+C:\Users\ekong_d\Documents\GitHub\DaybreakMacon-Xamarin\DaybreakMacon\DaybreakMacon\obj\Debug\netstandard2.0\LaundryPage.xaml.g.cs
+C:\Users\ekong_d\Documents\GitHub\DaybreakMacon-Xamarin\DaybreakMacon\DaybreakMacon\obj\Debug\netstandard2.0\MainPage.xaml.g.cs
+C:\Users\ekong_d\Documents\GitHub\DaybreakMacon-Xamarin\DaybreakMacon\DaybreakMacon\obj\Debug\netstandard2.0\MainPage_iOS.xaml.g.cs
+C:\Users\ekong_d\Documents\GitHub\DaybreakMacon-Xamarin\DaybreakMacon\DaybreakMacon\obj\Debug\netstandard2.0\MainPage_iOSDetail.xaml.g.cs
+C:\Users\ekong_d\Documents\GitHub\DaybreakMacon-Xamarin\DaybreakMacon\DaybreakMacon\obj\Debug\netstandard2.0\MainPage_iOSMaster.xaml.g.cs
+C:\Users\ekong_d\Documents\GitHub\DaybreakMacon-Xamarin\DaybreakMacon\DaybreakMacon\obj\Debug\netstandard2.0\MealsPage.xaml.g.cs
+C:\Users\ekong_d\Documents\GitHub\DaybreakMacon-Xamarin\DaybreakMacon\DaybreakMacon\obj\Debug\netstandard2.0\MedicalCarePage.xaml.g.cs
+C:\Users\ekong_d\Documents\GitHub\DaybreakMacon-Xamarin\DaybreakMacon\DaybreakMacon\obj\Debug\netstandard2.0\MedSrvcsPage.xaml.g.cs
+C:\Users\ekong_d\Documents\GitHub\DaybreakMacon-Xamarin\DaybreakMacon\DaybreakMacon\obj\Debug\netstandard2.0\OthSrvsPage.xaml.g.cs
+C:\Users\ekong_d\Documents\GitHub\DaybreakMacon-Xamarin\DaybreakMacon\DaybreakMacon\obj\Debug\netstandard2.0\PrescriptionPage.xaml.g.cs
+C:\Users\ekong_d\Documents\GitHub\DaybreakMacon-Xamarin\DaybreakMacon\DaybreakMacon\obj\Debug\netstandard2.0\Services.xaml.g.cs
+C:\Users\ekong_d\Documents\GitHub\DaybreakMacon-Xamarin\DaybreakMacon\DaybreakMacon\obj\Debug\netstandard2.0\ShowersPage.xaml.g.cs
+C:\Users\ekong_d\Documents\GitHub\DaybreakMacon-Xamarin\DaybreakMacon\DaybreakMacon\obj\Debug\netstandard2.0\DaybreakMacon.csproj.CoreCompileInputs.cache
+C:\Users\ekong_d\Documents\GitHub\DaybreakMacon-Xamarin\DaybreakMacon\DaybreakMacon\obj\Debug\netstandard2.0\DaybreakMacon.AssemblyInfoInputs.cache
+C:\Users\ekong_d\Documents\GitHub\DaybreakMacon-Xamarin\DaybreakMacon\DaybreakMacon\obj\Debug\netstandard2.0\DaybreakMacon.AssemblyInfo.cs
+C:\Users\ekong_d\Documents\GitHub\DaybreakMacon-Xamarin\DaybreakMacon\DaybreakMacon\obj\Debug\netstandard2.0\XamlC.stamp
+C:\Users\ekong_d\Documents\GitHub\DaybreakMacon-Xamarin\DaybreakMacon\DaybreakMacon\obj\Debug\netstandard2.0\DaybreakMacon.dll
+C:\Users\ekong_d\Documents\GitHub\DaybreakMacon-Xamarin\DaybreakMacon\DaybreakMacon\obj\Debug\netstandard2.0\DaybreakMacon.pdb
+C:\Users\ekong_d\Desktop\DaybreakMacon - May2019\DaybreakMacon\DaybreakMacon\bin\Debug\netstandard2.0\DaybreakMacon.deps.json
+C:\Users\ekong_d\Desktop\DaybreakMacon - May2019\DaybreakMacon\DaybreakMacon\bin\Debug\netstandard2.0\DaybreakMacon.dll
+C:\Users\ekong_d\Desktop\DaybreakMacon - May2019\DaybreakMacon\DaybreakMacon\bin\Debug\netstandard2.0\DaybreakMacon.pdb
+C:\Users\ekong_d\Desktop\DaybreakMacon - May2019\DaybreakMacon\DaybreakMacon\obj\Debug\netstandard2.0\DaybreakMacon.csprojAssemblyReference.cache
+C:\Users\ekong_d\Desktop\DaybreakMacon - May2019\DaybreakMacon\DaybreakMacon\obj\Debug\netstandard2.0\AboutUs.xaml.g.cs
+C:\Users\ekong_d\Desktop\DaybreakMacon - May2019\DaybreakMacon\DaybreakMacon\obj\Debug\netstandard2.0\App.xaml.g.cs
+C:\Users\ekong_d\Desktop\DaybreakMacon - May2019\DaybreakMacon\DaybreakMacon\obj\Debug\netstandard2.0\Clothing.xaml.g.cs
+C:\Users\ekong_d\Desktop\DaybreakMacon - May2019\DaybreakMacon\DaybreakMacon\obj\Debug\netstandard2.0\CounselingPage.xaml.g.cs
+C:\Users\ekong_d\Desktop\DaybreakMacon - May2019\DaybreakMacon\DaybreakMacon\obj\Debug\netstandard2.0\DentalPage.xaml.g.cs
+C:\Users\ekong_d\Desktop\DaybreakMacon - May2019\DaybreakMacon\DaybreakMacon\obj\Debug\netstandard2.0\FoodBnkPage.xaml.g.cs
+C:\Users\ekong_d\Desktop\DaybreakMacon - May2019\DaybreakMacon\DaybreakMacon\obj\Debug\netstandard2.0\HousingPage.xaml.g.cs
+C:\Users\ekong_d\Desktop\DaybreakMacon - May2019\DaybreakMacon\DaybreakMacon\obj\Debug\netstandard2.0\LatestNewsPage.xaml.g.cs
+C:\Users\ekong_d\Desktop\DaybreakMacon - May2019\DaybreakMacon\DaybreakMacon\obj\Debug\netstandard2.0\LaundryPage.xaml.g.cs
+C:\Users\ekong_d\Desktop\DaybreakMacon - May2019\DaybreakMacon\DaybreakMacon\obj\Debug\netstandard2.0\MainPage.xaml.g.cs
+C:\Users\ekong_d\Desktop\DaybreakMacon - May2019\DaybreakMacon\DaybreakMacon\obj\Debug\netstandard2.0\MainPage_iOS.xaml.g.cs
+C:\Users\ekong_d\Desktop\DaybreakMacon - May2019\DaybreakMacon\DaybreakMacon\obj\Debug\netstandard2.0\MainPage_iOSDetail.xaml.g.cs
+C:\Users\ekong_d\Desktop\DaybreakMacon - May2019\DaybreakMacon\DaybreakMacon\obj\Debug\netstandard2.0\MainPage_iOSMaster.xaml.g.cs
+C:\Users\ekong_d\Desktop\DaybreakMacon - May2019\DaybreakMacon\DaybreakMacon\obj\Debug\netstandard2.0\MealsPage.xaml.g.cs
+C:\Users\ekong_d\Desktop\DaybreakMacon - May2019\DaybreakMacon\DaybreakMacon\obj\Debug\netstandard2.0\MedicalCarePage.xaml.g.cs
+C:\Users\ekong_d\Desktop\DaybreakMacon - May2019\DaybreakMacon\DaybreakMacon\obj\Debug\netstandard2.0\MedSrvcsPage.xaml.g.cs
+C:\Users\ekong_d\Desktop\DaybreakMacon - May2019\DaybreakMacon\DaybreakMacon\obj\Debug\netstandard2.0\OthSrvsPage.xaml.g.cs
+C:\Users\ekong_d\Desktop\DaybreakMacon - May2019\DaybreakMacon\DaybreakMacon\obj\Debug\netstandard2.0\PrescriptionPage.xaml.g.cs
+C:\Users\ekong_d\Desktop\DaybreakMacon - May2019\DaybreakMacon\DaybreakMacon\obj\Debug\netstandard2.0\Services.xaml.g.cs
+C:\Users\ekong_d\Desktop\DaybreakMacon - May2019\DaybreakMacon\DaybreakMacon\obj\Debug\netstandard2.0\ShowersPage.xaml.g.cs
+C:\Users\ekong_d\Desktop\DaybreakMacon - May2019\DaybreakMacon\DaybreakMacon\obj\Debug\netstandard2.0\DaybreakMacon.csproj.CoreCompileInputs.cache
+C:\Users\ekong_d\Desktop\DaybreakMacon - May2019\DaybreakMacon\DaybreakMacon\obj\Debug\netstandard2.0\DaybreakMacon.AssemblyInfoInputs.cache
+C:\Users\ekong_d\Desktop\DaybreakMacon - May2019\DaybreakMacon\DaybreakMacon\obj\Debug\netstandard2.0\DaybreakMacon.AssemblyInfo.cs
+C:\Users\ekong_d\Desktop\DaybreakMacon - May2019\DaybreakMacon\DaybreakMacon\obj\Debug\netstandard2.0\XamlC.stamp
+C:\Users\ekong_d\Desktop\DaybreakMacon - May2019\DaybreakMacon\DaybreakMacon\obj\Debug\netstandard2.0\DaybreakMacon.dll
+C:\Users\ekong_d\Desktop\DaybreakMacon - May2019\DaybreakMacon\DaybreakMacon\obj\Debug\netstandard2.0\DaybreakMacon.pdb

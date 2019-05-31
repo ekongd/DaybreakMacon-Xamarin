@@ -1,0 +1,442 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" 
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" 
+             x:Class="DaybreakMacon.MedicalCarePage"
+             xmlns:local="clr-namespace:DaybreakMacon"
+             Title="Medical Care"
+             BackgroundColor="{x:Static local:ColorCnsts.DayBreakBackgroundColor}"
+             NavigationPage.BackButtonTitle="  "  >
+    
+    <ContentPage.Padding>
+
+        <OnPlatform x:TypeArguments="Thickness"
+                    iOS="20, 40, 20, 20"
+                    Android="20, 20, 20, 20"
+                    WinPhone="20, 20, 20, 20" />
+    </ContentPage.Padding>
+    
+    <ContentPage.Content>
+        
+      <ScrollView>
+            
+        <StackLayout   VerticalOptions="FillAndExpand"
+                       HorizontalOptions="FillAndExpand"
+                       Orientation="Vertical"
+                       Spacing="2" >
+
+ 
+          <!-- ****** Anderson Health Clinic  *******        -->
+
+                <Label Text="&#x0a;Anderson Health Clinic" 
+                       FontAttributes="Bold"/>
+                <Label Text="Care Partners Program." />
+                <Label Text="Prescription assistance for chronic illnesses." />
+                <Label Text="Call to speak to someone about eligbility." />
+
+                <Grid RowSpacing="2">
+                                                <!-- 1 row 2 columns  -->
+                    <Grid.RowDefinitions >
+                        <RowDefinition Height="Auto" />
+                    </Grid.RowDefinitions>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="140" />
+                        <ColumnDefinition Width="*" />
+                    </Grid.ColumnDefinitions>
+                    
+                    <Label Text="Phone:" 
+                        Grid.Row="0" Grid.Column="0" />
+                    <Label Text="{x:Static local:MyStrngCnsts.andrsnHlthNumbr}" 
+                            Grid.Row="0" Grid.Column="1" 
+                            TextColor="Blue"> 
+
+                      <Label.GestureRecognizers>
+                            <TapGestureRecognizer 
+                                Tapped = "OnNumbrTapped"
+                                NumberOfTapsRequired="1"/>                            
+                       </Label.GestureRecognizers>                   
+                    </Label>
+                </Grid>
+
+            <!-- ****** Crisis Line and Safe House  ******* -->
+
+                <Label  Text="&#x0a;Crisis Line and Safe House" 
+                        FontAttributes="Bold"/>
+                <Label Text="Escape from domestic violence and &#x0a;rape crisis services." />
+                <Grid RowSpacing="2">
+                                                     <!-- 1 row 2 columns  -->
+                    <Grid.RowDefinitions >
+                        <RowDefinition Height="Auto" />
+                    </Grid.RowDefinitions>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="140" />
+                        <ColumnDefinition Width="*" />
+                    </Grid.ColumnDefinitions>
+
+                    <Label Text="Phone:" 
+                       Grid.Row="0" Grid.Column="0" />
+                    <Label Text="{x:Static local:MyStrngCnsts.crsHsNumbr}" 
+                          Grid.Row="0" Grid.Column="1" 
+                          TextColor="Blue">
+
+                        <Label.GestureRecognizers>
+                           <TapGestureRecognizer 
+                             Tapped = "OnNumbrTapped"
+                             NumberOfTapsRequired="1"/>                            
+                        </Label.GestureRecognizers> 
+                    </Label>    
+                </Grid>
+
+            <!-- ****** Daybreak  *******        -->
+
+                <Label Text="&#x0a;Daybreak" FontAttributes="Bold"/>
+
+                <Label Text="Eye Care for uninsured adults." />
+                <Label Text="Lions Club referral program." />
+
+                <Grid RowSpacing="2">
+                    <!-- 2 rows 2 columns  -->
+                    <Grid.RowDefinitions >
+                        <RowDefinition Height="Auto" />
+                        <RowDefinition Height="Auto" />
+                    </Grid.RowDefinitions>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="140" />
+                        <ColumnDefinition Width="*" />
+                    </Grid.ColumnDefinitions>
+
+                    <Label Text="Phone:" 
+                           Grid.Row="0" Grid.Column="0" />
+                    <Label Text="{x:Static local:MyStrngCnsts.daybreakNumbr}" 
+                           Grid.Row="0" Grid.Column="1" 
+                           TextColor="Blue">
+                        <Label.GestureRecognizers>
+                            <TapGestureRecognizer 
+                             Tapped = "OnNumbrTapped"
+                             NumberOfTapsRequired="1"/>
+                        </Label.GestureRecognizers>
+                    </Label>
+
+                    <Label Text="Ext. 2009" 
+                           Grid.Row="1" Grid.Column="1" />
+                </Grid>
+
+                <!-- ****** First Choice Primary Care  *******        -->
+
+                <Label Text="&#x0a;First Choice Primary Care" 
+                        FontAttributes="Bold"/>
+
+                <Label Text="Insurance accepted." />
+                <Label Text="Non-insured fees based on income." />
+                
+                <Grid RowSpacing="2">
+                                                     <!-- 2 rows 2 columns  -->
+                    <Grid.RowDefinitions >
+                        <RowDefinition Height="Auto" />
+                        <RowDefinition Height="Auto" />
+                    </Grid.RowDefinitions>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="140" />
+                        <ColumnDefinition Width="*" />
+                    </Grid.ColumnDefinitions>
+                       
+                    <Label  Grid.Row="0" Grid.Column="0" 
+                            Text="Phone:"/>
+                    <Label  Grid.Row="0" Grid.Column="1" 
+                            Text="{x:Static local:MyStrngCnsts.frstChcNumbr}" 
+                           TextColor="Blue">
+                        <Label.GestureRecognizers>
+                           <TapGestureRecognizer 
+                             Tapped = "OnNumbrTapped"
+                             NumberOfTapsRequired="1"/>                            
+                        </Label.GestureRecognizers> 
+                    </Label>    
+                        
+
+                    <Label Grid.Row="1" Grid.Column="0" 
+                           Text="Address:" />
+                    <Label Grid.Row="1" Grid.Column="1" 
+                           Text="{x:Static local:MyStrngCnsts.frstChcAddr}" 
+                           TextColor="Blue">
+                        <Label.GestureRecognizers>
+                           <TapGestureRecognizer 
+                             Tapped = "OnAddrTapped"
+                             NumberOfTapsRequired="1"/>                            
+                        </Label.GestureRecognizers> 
+                    </Label>    
+                </Grid>
+
+                <!-- ****** Goggles Eye Care For Kids  *******        -->
+
+                <Label Text="&#x0a;Goggles Eye Care For Kids" FontAttributes="Bold"/>
+                <Label HorizontalOptions="FillAndExpand">
+                    <Label.FormattedText>
+                      <FormattedString>
+                        <Span Text="Discount for low income vision exam and "/>
+                        <Span Text="glasses (kids too)." />
+                      </FormattedString>
+                    </Label.FormattedText>
+                </Label>
+
+                <Grid RowSpacing="2">
+                                                     <!-- 2 rows 2 columns  -->
+                    <Grid.RowDefinitions >
+                        <RowDefinition Height="Auto" />
+                        <RowDefinition Height="Auto" />
+                    </Grid.RowDefinitions>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="140" />
+                        <ColumnDefinition Width="*" />
+                    </Grid.ColumnDefinitions>
+
+                    <Label Text="Phone:" 
+                           Grid.Row="0" Grid.Column="0" />
+                    <Label  Text="{x:Static local:MyStrngCnsts.gglsNumbr}" 
+                            Grid.Row="0" Grid.Column="1" 
+                            TextColor="Blue">
+                        <Label.GestureRecognizers>
+                           <TapGestureRecognizer 
+                             Tapped = "OnNumbrTapped"
+                             NumberOfTapsRequired="1"/>                            
+                        </Label.GestureRecognizers> 
+                    </Label>    
+
+                    <Label Text="Address:" 
+                           Grid.Row="1" Grid.Column="0" />
+                    <Label Text="{x:Static local:MyStrngCnsts.gglsAddr}" 
+                           Grid.Row="1" Grid.Column="1" 
+                           TextColor="Blue">
+                        <Label.GestureRecognizers>
+                           <TapGestureRecognizer 
+                             Tapped = "OnAddrTapped"
+                             NumberOfTapsRequired="1"/>                            
+                        </Label.GestureRecognizers> 
+                    </Label>    
+                </Grid>
+
+            <!-- ****** Hope Center  *******        -->
+
+                <Label Text="&#x0a;Hope Center" FontAttributes="Bold"/>
+
+                <Label HorizontalOptions="FillAndExpand">
+                    <Label.FormattedText>
+                        <FormattedString>
+                            <Span Text="HIV/AIDS support services for healthcare,"/>
+                            <Span Text="&#x0a;dental, housing, and more." />
+                        </FormattedString>
+                    </Label.FormattedText>
+                </Label>
+
+                <Grid RowSpacing="2">
+                                                <!-- 3 rows 2 columns  -->
+                    <Grid.RowDefinitions >
+                        <RowDefinition Height="Auto" />     <!-- row 0 -->
+                        <RowDefinition Height="Auto" />     <!-- row 1 -->                        
+                    </Grid.RowDefinitions>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="140" />
+                        <ColumnDefinition Width="*" />
+                    </Grid.ColumnDefinitions>
+                    
+                    <Label  Grid.Row="0" Grid.Column="0" 
+                            Text="Phone:" />
+                    <Label  Grid.Row="0" Grid.Column="1"
+                            Text="{x:Static local:MyStrngCnsts.hopeCntrNumbr}" 
+                            TextColor="Blue"> 
+                        <Label.GestureRecognizers>
+                           <TapGestureRecognizer 
+                             Tapped = "OnNumbrTapped"
+                             NumberOfTapsRequired="1"/>                            
+                        </Label.GestureRecognizers> 
+                    </Label>
+
+                    <Label Text="Address:" 
+                           Grid.Row="1" Grid.Column="0" />
+                    <Label Text="{x:Static local:MyStrngCnsts.hopeCntrAddr}" 
+                           Grid.Row="1" Grid.Column="1" 
+                           TextColor="Blue">
+                        <Label.GestureRecognizers>
+                            <TapGestureRecognizer 
+                             Tapped = "OnAddrTapped"
+                             NumberOfTapsRequired="1"/>
+                        </Label.GestureRecognizers>
+                    </Label>
+                </Grid>
+
+
+                <!-- ****** The Kolbe Life Center   *******        -->
+
+                <Label Text="&#x0a;The Kolbe Life Center" FontAttributes="Bold"/>
+
+                <Label Text="Pregnancy resource and counseling center." />
+
+                <Grid RowSpacing="2">
+                                                    <!-- 1 row 2 columns  -->
+                    <Grid.RowDefinitions >
+                        <RowDefinition Height="Auto" />
+                    </Grid.RowDefinitions>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="140" />
+                        <ColumnDefinition Width="*" />
+                    </Grid.ColumnDefinitions>
+
+                    <Label  Grid.Row="0" Grid.Column="0"
+                            Text="Phone:" />
+                    <Label  Grid.Row="0" Grid.Column="1"
+                            Text="478-257-4425" 
+                            TextColor="Blue">
+                        <Label.GestureRecognizers>
+                            <TapGestureRecognizer 
+                             Tapped = "OnNumbrTapped"
+                             NumberOfTapsRequired="1"/>
+                        </Label.GestureRecognizers>
+                    </Label>
+                </Grid>
+
+
+            <!-- ****** Lenscrafters  *******        -->
+
+                <Label Text="&#x0a;Lenscrafters" FontAttributes="Bold"/>
+
+                <Label Text="Eye Care for uninsured adults through the " />
+                <Label Text="One Sight Foundation." />
+            
+                <Grid RowSpacing="2">
+                                                    <!-- 1 row 2 columns  -->
+                    <Grid.RowDefinitions >
+                        <RowDefinition Height="Auto" />
+                    </Grid.RowDefinitions>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="140" />
+                        <ColumnDefinition Width="*" />
+                    </Grid.ColumnDefinitions>
+
+                    <Label  Grid.Row="0" Grid.Column="0"
+                            Text="Phone:" />
+                    <Label  Grid.Row="0" Grid.Column="1"
+                            Text="{x:Static local:MyStrngCnsts.lensCrftrsNumbr}" 
+                            TextColor="Blue">
+                        <Label.GestureRecognizers>
+                           <TapGestureRecognizer 
+                             Tapped = "OnNumbrTapped"
+                             NumberOfTapsRequired="1"/>                            
+                        </Label.GestureRecognizers> 
+                    </Label>
+                </Grid>
+
+            <!-- ******Macon-Bibb County Health Dept.  *******        -->
+
+                <Label Text="&#x0a;Macon-Bibb County Health Department" FontAttributes="Bold"/>
+                <Grid RowSpacing="2">
+                                            <!-- 2 rows 2 columns  -->
+                    <Grid.RowDefinitions >
+                        <RowDefinition Height="Auto" />
+                        <RowDefinition Height="Auto" />
+                    </Grid.RowDefinitions>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="140" />
+                        <ColumnDefinition Width="*" />
+                    </Grid.ColumnDefinitions>
+
+                    <Label Text="Phone:" 
+                           Grid.Row="0" Grid.Column="0" />
+                    <Label Text="{x:Static local:MyStrngCnsts.mcnBbbHlthNumbr}" 
+                           Grid.Row="0" Grid.Column="1" 
+                           TextColor="Blue">
+                        <Label.GestureRecognizers>
+                           <TapGestureRecognizer 
+                             Tapped = "OnNumbrTapped"
+                             NumberOfTapsRequired="1"/>                            
+                        </Label.GestureRecognizers> 
+                    </Label>
+
+                    <Label Text="Address:" 
+                    Grid.Row="1" Grid.Column="0" />
+                    <Label Text="{x:Static local:MyStrngCnsts.mcnBbbHlthAddr}" 
+                           Grid.Row="1" Grid.Column="1" 
+                           TextColor="Blue">
+                        <Label.GestureRecognizers>
+                           <TapGestureRecognizer 
+                             Tapped = "OnAddrTapped"
+                             NumberOfTapsRequired="1"/>                            
+                        </Label.GestureRecognizers> 
+                    </Label>
+                </Grid>
+
+           <!-- ****** Macon Volunteer Clinic  *******        -->
+
+                <Label Text="&#x0a;Macon Volunteer Clinic" FontAttributes="Bold"/>
+
+                <Label Text="Healthcare for persons employed but uninsured." />
+
+                <Grid RowSpacing="2">
+                                                        <!-- 2 rows 2 columns  -->
+                    <Grid.RowDefinitions >
+                        <RowDefinition Height="Auto" />
+                        <RowDefinition Height="Auto" />
+                    </Grid.RowDefinitions>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="140" />
+                        <ColumnDefinition Width="*" />
+                    </Grid.ColumnDefinitions>
+
+                    <Label Text="Phone:" 
+                           Grid.Row="0" Grid.Column="0" />
+                    <Label Text="{x:Static local:MyStrngCnsts.mcnVolClncNumbr}" 
+                           Grid.Row="0" Grid.Column="1" 
+                           TextColor="Blue">
+                        <Label.GestureRecognizers>
+                           <TapGestureRecognizer 
+                             Tapped = "OnNumbrTapped"
+                             NumberOfTapsRequired="1"/>                            
+                        </Label.GestureRecognizers> 
+                    </Label>
+
+                    <Label  Text="Address:" 
+                            Grid.Row="1" Grid.Column="0" />
+                    <Label  Text="{x:Static local:MyStrngCnsts.mcnVolClncAddr}" 
+                            Grid.Row="1" Grid.Column="1" 
+                            TextColor="Blue">
+                        <Label.GestureRecognizers>
+                           <TapGestureRecognizer 
+                             Tapped = "OnAddrTapped"
+                             NumberOfTapsRequired="1"/>                            
+                        </Label.GestureRecognizers> 
+                    </Label>
+                </Grid>
+
+           <!-- ****** Right from the Start  *******        -->
+
+                <Label Text="&#x0a;Right from the Start" FontAttributes="Bold"/>
+                <Label Text="Medicaid for pregnant women, children, and families." />
+
+                <Grid RowSpacing="2">
+                                                        <!-- 1 row 2 columns  -->
+                    <Grid.RowDefinitions >
+                        <RowDefinition Height="Auto" />
+                    </Grid.RowDefinitions>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="140" />
+                        <ColumnDefinition Width="*" />
+                    </Grid.ColumnDefinitions>
+
+                    <Label Text="Phone:" 
+                           Grid.Row="0" Grid.Column="0" />
+                    <Label Text="{x:Static local:MyStrngCnsts.rghtStrtNumbr}" 
+                           Grid.Row="0" Grid.Column="1" 
+                           TextColor="Blue">
+                        <Label.GestureRecognizers>
+                           <TapGestureRecognizer 
+                             Tapped = "OnNumbrTapped"
+                             NumberOfTapsRequired="1"/>                            
+                        </Label.GestureRecognizers> 
+                    </Label>
+                </Grid>
+                
+            </StackLayout>
+
+       </ScrollView>
+            
+                                       
+    </ContentPage.Content>
+    
+</ContentPage>

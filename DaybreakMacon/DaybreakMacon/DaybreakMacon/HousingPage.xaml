@@ -1,0 +1,276 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="DaybreakMacon.HousingPage"  
+             xmlns:local="clr-namespace:DaybreakMacon"
+             Title="Housing"
+             BackgroundColor=
+             "{x:Static local:ColorCnsts.DayBreakBackgroundColor}"
+             NavigationPage.BackButtonTitle="  " >
+
+    <ContentPage.Padding>
+
+        <OnPlatform x:TypeArguments="Thickness"
+                    iOS="20, 40, 20, 20"
+                    Android="20, 20, 20, 20"
+                    WinPhone="20, 20, 20, 20" />
+    </ContentPage.Padding>
+
+    <ScrollView>
+
+        <StackLayout   VerticalOptions="FillAndExpand"
+                       HorizontalOptions="FillAndExpand"
+                       Orientation="Vertical"
+                       Spacing="2" >
+
+            <Label Text="EMERGENCY SHELTER &#x0a;" FontAttributes="Bold" 
+               HorizontalOptions="Center"/>
+
+            <!-- ****** Salvation Army  *******  -->
+
+            <Label Text="Salvation Army" FontAttributes="Bold"/>
+            <Label HorizontalOptions="FillAndExpand">
+                <Label.FormattedText>
+                    <FormattedString>
+                        <Span Text="Emergency Shelter for Men and &#x0a;" />
+                        <Span Text="Women. Be there by 4 PM." />
+                    </FormattedString>
+                </Label.FormattedText>
+            </Label>
+            <Grid RowSpacing="2">
+                
+                <Grid.RowDefinitions >
+                    <RowDefinition Height="Auto" />
+                    <RowDefinition Height="Auto" />
+                </Grid.RowDefinitions>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="140" />
+                    <ColumnDefinition Width="*" />
+                </Grid.ColumnDefinitions>
+                
+                <Label Text="Phone:" 
+                   Grid.Row="0" Grid.Column="0" />
+                <Label  Text="{x:Static local:MyStrngCnsts.salvArmyNumbr}" 
+                        Grid.Row="0" Grid.Column="1" 
+                        TextColor="Blue">
+                    <Label.GestureRecognizers>
+                        <TapGestureRecognizer 
+                            Tapped = "OnNumbrTapped"
+                            NumberOfTapsRequired="1"/>
+                    </Label.GestureRecognizers>
+                </Label>
+                
+                <Label Text="Address:" 
+                    Grid.Row="1" Grid.Column="0" />
+                <Label Text="{x:Static local:MyStrngCnsts.salvArmyAddr}" 
+                       Grid.Row="1" Grid.Column="1" 
+                       TextColor="Blue">
+                    <Label.GestureRecognizers>
+                        <TapGestureRecognizer 
+                           Tapped = "OnAddrTapped"
+                           NumberOfTapsRequired="1"/>
+                    </Label.GestureRecognizers>
+                </Label>
+            </Grid>
+
+            <Label Text="&#x0a;&#x0a;TRANSITIONAL HOUSING &#x0a;" FontAttributes="Bold" 
+               HorizontalOptions="Center"/>
+
+            <!-- ****** EOC Service Center  *******  -->
+
+            <Label Text="Macon-Bibb County Economic &#x0a;Opportunity Council (EOC) &#x0a;Service Center" 
+                   FontAttributes="Bold"/>
+            <Grid RowSpacing="2">
+
+                <Grid.RowDefinitions >
+                    <RowDefinition Height="Auto" />
+                    <RowDefinition Height="Auto" />
+                </Grid.RowDefinitions>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="140" />
+                    <ColumnDefinition Width="*" />
+                </Grid.ColumnDefinitions>
+
+                <Label Text="Phone:" 
+                   Grid.Row="0" Grid.Column="0" />
+                <Label  Text="478-750-8689" 
+                        Grid.Row="0" Grid.Column="1" 
+                        TextColor="Blue">
+                    <Label.GestureRecognizers>
+                        <TapGestureRecognizer 
+                            Tapped = "OnNumbrTapped"
+                            NumberOfTapsRequired="1"/>
+                    </Label.GestureRecognizers>
+                </Label>
+
+                <Label Text="Address:" 
+                    Grid.Row="1" Grid.Column="0" />
+                <Label Text="1877 Houston Ave, &#x0a;Macon, GA 31201" 
+                       Grid.Row="1" Grid.Column="1" 
+                       TextColor="Blue">
+                    <Label.GestureRecognizers>
+                        <TapGestureRecognizer 
+                           Tapped = "OnAddrTapped"
+                           NumberOfTapsRequired="1"/>
+                    </Label.GestureRecognizers>
+                </Label>
+            </Grid>
+
+            <!-- ****** CCMI  *******  -->
+
+            <Label Text="&#x0a;Centenary Community &#x0a;Ministries, Inc. (CCMI)" 
+                   FontAttributes="Bold"/>
+
+            <Label Text="For homeless men in recovery from &#x0a;an addiction." />
+            
+            <Grid RowSpacing="2">
+
+                <Grid.RowDefinitions >
+                    <RowDefinition Height="Auto" />
+                    <RowDefinition Height="Auto" />
+                </Grid.RowDefinitions>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="140" />
+                    <ColumnDefinition Width="*" />
+                </Grid.ColumnDefinitions>
+
+                <Label Text="Phone:" 
+                   Grid.Row="0" Grid.Column="0" />
+                <Label  Text="478-742-8926" 
+                        Grid.Row="0" Grid.Column="1" 
+                        TextColor="Blue">
+                    <Label.GestureRecognizers>
+                        <TapGestureRecognizer 
+                            Tapped = "OnNumbrTapped"
+                            NumberOfTapsRequired="1"/>
+                    </Label.GestureRecognizers>
+                </Label>
+
+                <Label Text="Address:" 
+                    Grid.Row="1" Grid.Column="0" />
+                <Label Text="1235 Ash St, &#x0a;Macon, GA 31201" 
+                       Grid.Row="1" Grid.Column="1" 
+                       TextColor="Blue">
+                    <Label.GestureRecognizers>
+                        <TapGestureRecognizer 
+                           Tapped = "OnAddrTapped"
+                           NumberOfTapsRequired="1"/>
+                    </Label.GestureRecognizers>
+                </Label>
+            </Grid>
+
+            <Label Text="&#x0a;&#x0a;PERMANENT HOUSING &#x0a;" FontAttributes="Bold" 
+               HorizontalOptions="Center"/>
+
+            <!-- ****** Macon Housing Authority  *******  -->
+
+            <Label Text="Macon Housing Authority" 
+                   FontAttributes="Bold"/>
+
+            <Label Text="Apply for Public Housing or Section 8 &#x0a;in person." />
+
+            <Grid RowSpacing="2">
+
+                <Grid.RowDefinitions >
+                    <RowDefinition Height="Auto" />
+                    <RowDefinition Height="Auto" />
+                </Grid.RowDefinitions>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="140" />
+                    <ColumnDefinition Width="*" />
+                </Grid.ColumnDefinitions>
+
+                <Label Text="Phone:" 
+                   Grid.Row="0" Grid.Column="0" />
+                <Label  Text="478-752-5000" 
+                        Grid.Row="0" Grid.Column="1" 
+                        TextColor="Blue">
+                    <Label.GestureRecognizers>
+                        <TapGestureRecognizer 
+                            Tapped = "OnNumbrTapped"
+                            NumberOfTapsRequired="1"/>
+                    </Label.GestureRecognizers>
+                </Label>
+
+                <Label Text="Address:" 
+                    Grid.Row="1" Grid.Column="0" />
+                <Label Text="2015 Felton Ave, &#x0a;Macon, GA 31201" 
+                       Grid.Row="1" Grid.Column="1" 
+                       TextColor="Blue">
+                    <Label.GestureRecognizers>
+                        <TapGestureRecognizer 
+                           Tapped = "OnAddrTapped"
+                           NumberOfTapsRequired="1"/>
+                    </Label.GestureRecognizers>
+                </Label>
+            </Grid>
+
+            <!-- ****** Volunteers of America Southeast, Inc.  *******  -->
+
+            <Label Text="&#x0a;Volunteers of America &#x0a;Southeast, Inc." FontAttributes="Bold"/>
+            <Label HorizontalOptions="FillAndExpand">
+                <Label.FormattedText>
+                    <FormattedString>
+                        <Span Text="SSVF grant to homeless and at-risk of &#x0a;" />
+                        <Span Text="homeless veterans. Rapid rehousing, and &#x0a;financial assistance for rent, rent deposits," />
+                        <Span Text="&#x0a;and utilities." />
+                    </FormattedString>
+                </Label.FormattedText>
+            </Label>
+            <Grid RowSpacing="2">
+                
+                <Grid.RowDefinitions >
+                    <RowDefinition Height="Auto" />
+                    <RowDefinition Height="Auto" />
+                    <RowDefinition Height="Auto" />
+                    <RowDefinition Height="Auto" />
+                </Grid.RowDefinitions>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="140" />
+                    <ColumnDefinition Width="*" />
+                </Grid.ColumnDefinitions>
+                
+                <Label Text="Phone:" 
+                   Grid.Row="0" Grid.Column="0" />
+                <Label  Text="478-919-2377" 
+                        Grid.Row="0" Grid.Column="1" 
+                        TextColor="Blue">
+                    <Label.GestureRecognizers>
+                        <TapGestureRecognizer 
+                            Tapped = "OnNumbrTapped"
+                            NumberOfTapsRequired="1"/>
+                    </Label.GestureRecognizers>
+                </Label>
+                
+                <Label Text="Email:" 
+                    Grid.Row="1" Grid.Column="0" />
+                <Label Text="SSVF@voase.org" 
+                       Grid.Row="1" Grid.Column="1" 
+                       TextColor="Blue">
+                    <Label.GestureRecognizers>
+                        <TapGestureRecognizer 
+                           Tapped = "OnEmailTapped"
+                           NumberOfTapsRequired="1"/>
+                    </Label.GestureRecognizers>
+                </Label>
+
+                <Label Text="Address:" 
+                    Grid.Row="2" Grid.Column="0" />
+                <Label Text="Suite A" 
+                    Grid.Row="2" Grid.Column="1" />
+                <Label Text="341 Margie Dr, &#x0a;Warner Robins, GA 31088" 
+                       Grid.Row="3" Grid.Column="1" 
+                       TextColor="Blue">
+                    <Label.GestureRecognizers>
+                        <TapGestureRecognizer 
+                           Tapped = "OnAddrTapped"
+                           NumberOfTapsRequired="1"/>
+                    </Label.GestureRecognizers>
+                </Label>
+            </Grid>
+
+        </StackLayout> 
+    
+    </ScrollView>
+    
+</ContentPage>

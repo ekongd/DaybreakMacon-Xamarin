@@ -1,0 +1,30 @@
+Function=xamarin_timezone_get_data
+	/Users/donaldekong/Documents/GitHub/DaybreakMacon-Xamarin/DaybreakMacon/DaybreakMacon.iOS/obj/iPhone/Release/mtouch-cache/1-Link/mscorlib.dll
+Function=xamarin_GetFolderPath
+	/Users/donaldekong/Documents/GitHub/DaybreakMacon-Xamarin/DaybreakMacon/DaybreakMacon.iOS/obj/iPhone/Release/mtouch-cache/1-Link/mscorlib.dll
+Function=xamarin_log
+	/Users/donaldekong/Documents/GitHub/DaybreakMacon-Xamarin/DaybreakMacon/DaybreakMacon.iOS/obj/iPhone/Release/mtouch-cache/1-Link/mscorlib.dll
+Function=xamarin_find_protocol_wrapper_type
+	/Users/donaldekong/Documents/GitHub/DaybreakMacon-Xamarin/DaybreakMacon/DaybreakMacon.iOS/obj/iPhone/Release/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_release_block_on_main_thread
+	/Users/donaldekong/Documents/GitHub/DaybreakMacon-Xamarin/DaybreakMacon/DaybreakMacon.iOS/obj/iPhone/Release/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_get_block_descriptor
+	/Users/donaldekong/Documents/GitHub/DaybreakMacon-Xamarin/DaybreakMacon/DaybreakMacon.iOS/obj/iPhone/Release/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_IntPtr_objc_msgSend_IntPtr
+	/Users/donaldekong/Documents/GitHub/DaybreakMacon-Xamarin/DaybreakMacon/DaybreakMacon.iOS/obj/iPhone/Release/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_IntPtr_objc_msgSendSuper_IntPtr
+	/Users/donaldekong/Documents/GitHub/DaybreakMacon-Xamarin/DaybreakMacon/DaybreakMacon.iOS/obj/iPhone/Release/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=UIApplicationMain
+	/Users/donaldekong/Documents/GitHub/DaybreakMacon-Xamarin/DaybreakMacon/DaybreakMacon.iOS/obj/iPhone/Release/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_start_wwan
+	/Users/donaldekong/Documents/GitHub/DaybreakMacon-Xamarin/DaybreakMacon/DaybreakMacon.iOS/obj/iPhone/Release/mtouch-cache/1-Link/System.dll
+Function=CreateZStream
+	/Users/donaldekong/Documents/GitHub/DaybreakMacon-Xamarin/DaybreakMacon/DaybreakMacon.iOS/obj/iPhone/Release/mtouch-cache/1-Link/System.dll
+Function=CloseZStream
+	/Users/donaldekong/Documents/GitHub/DaybreakMacon-Xamarin/DaybreakMacon/DaybreakMacon.iOS/obj/iPhone/Release/mtouch-cache/1-Link/System.dll
+Function=Flush
+	/Users/donaldekong/Documents/GitHub/DaybreakMacon-Xamarin/DaybreakMacon/DaybreakMacon.iOS/obj/iPhone/Release/mtouch-cache/1-Link/System.dll
+Function=ReadZStream
+	/Users/donaldekong/Documents/GitHub/DaybreakMacon-Xamarin/DaybreakMacon/DaybreakMacon.iOS/obj/iPhone/Release/mtouch-cache/1-Link/System.dll
+Function=WriteZStream
+	/Users/donaldekong/Documents/GitHub/DaybreakMacon-Xamarin/DaybreakMacon/DaybreakMacon.iOS/obj/iPhone/Release/mtouch-cache/1-Link/System.dll

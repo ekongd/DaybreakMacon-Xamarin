@@ -1,0 +1,205 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" 
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" 
+             x:Class="DaybreakMacon.DentalPage"
+             xmlns:local="clr-namespace:DaybreakMacon"
+             Title="Dental Services"
+             BackgroundColor="{x:Static local:ColorCnsts.DayBreakBackgroundColor}"
+             NavigationPage.BackButtonTitle="  ">
+    
+    <ContentPage.Padding>
+
+        <OnPlatform x:TypeArguments="Thickness"
+                    iOS="20, 40, 20, 20"
+                    Android="20, 20, 20, 20"
+                    WinPhone="20, 20, 20, 20" />
+    </ContentPage.Padding>
+    
+    <ContentPage.Content>
+        
+      <ScrollView>
+            
+        <StackLayout   VerticalOptions="FillAndExpand"
+                       HorizontalOptions="FillAndExpand"
+                       Orientation="Vertical"
+                       Spacing="2" > 
+
+            <!-- ******Macon-Bibb County Health Dept.  *******        -->
+
+                <Label Text="&#x0a;Macon-Bibb County Health Department" FontAttributes="Bold"/>
+                <Label Text="Children through age 18." />
+                <Grid RowSpacing="2">
+                    <!-- 2 rows 2 columns  -->
+                    <Grid.RowDefinitions >
+                        <RowDefinition Height="Auto" />
+                        <RowDefinition Height="Auto" />
+                    </Grid.RowDefinitions>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="140" />
+                        <ColumnDefinition Width="*" />
+                    </Grid.ColumnDefinitions>
+
+                    <Label Text="Phone:" 
+                           Grid.Row="0" Grid.Column="0" />
+                    <Label Text="{x:Static local:MyStrngCnsts.mcnBbbHlthNumbr}" 
+                           Grid.Row="0" Grid.Column="1" 
+                           TextColor="Blue">
+                        <Label.GestureRecognizers>
+                           <TapGestureRecognizer 
+                             Tapped = "OnNumbrTapped"
+                             NumberOfTapsRequired="1"/>                            
+                        </Label.GestureRecognizers> 
+                    </Label>
+
+                    <Label Text="Address:" 
+                           Grid.Row="1" Grid.Column="0" />
+                    <Label Text="{x:Static local:MyStrngCnsts.mcnBbbHlthAddr}" 
+                           Grid.Row="1" Grid.Column="1" 
+                           TextColor="Blue">
+                        <Label.GestureRecognizers>
+                           <TapGestureRecognizer 
+                             Tapped = "OnAddrTapped"
+                             NumberOfTapsRequired="1"/>                            
+                        </Label.GestureRecognizers> 
+                    </Label>
+                </Grid>
+
+                <!-- ****** Macon Volunteer Clinic  *******        -->
+
+                <Label Text="&#x0a;Macon Volunteer Clinic" FontAttributes="Bold"/>
+                <Label Text="Ask for Jennifer at Ext. 128." />
+                <Grid RowSpacing="2">
+                    <!-- 2 rows 2 columns  -->
+                    <Grid.RowDefinitions >
+                        <RowDefinition Height="Auto" />
+                        <RowDefinition Height="Auto" />
+                    </Grid.RowDefinitions>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="140" />
+                        <ColumnDefinition Width="*" />
+                    </Grid.ColumnDefinitions>
+
+                    <Label Text="Phone:" 
+                           Grid.Row="0" Grid.Column="0" />
+                    <Label Text="{x:Static local:MyStrngCnsts.mcnVolClncNumbr}" 
+                           Grid.Row="0" Grid.Column="1" 
+                           TextColor="Blue">
+                        <Label.GestureRecognizers>
+                           <TapGestureRecognizer 
+                             Tapped = "OnNumbrTapped"
+                             NumberOfTapsRequired="1"/>                            
+                        </Label.GestureRecognizers> 
+                    </Label>
+
+                    <Label Text="Address:" 
+                           Grid.Row="1" Grid.Column="0" />
+                    <Label Text="{x:Static local:MyStrngCnsts.mcnVolClncAddr}" 
+                           Grid.Row="1" Grid.Column="1" 
+                           TextColor="Blue">
+                        <Label.GestureRecognizers>
+                           <TapGestureRecognizer 
+                             Tapped = "OnAddrTapped"
+                             NumberOfTapsRequired="1"/>                            
+                        </Label.GestureRecognizers> 
+                    </Label>
+                </Grid>
+
+                <!-- ****** Oglethorpe Dental Clinic  *******        -->
+
+                <Label Text="&#x0a;Oglethorpe Dental Clinic" FontAttributes="Bold"/>
+                <Label Text="Fees." />
+                <Grid RowSpacing="2">
+                    <!-- 2 rows 2 columns  -->
+                    <Grid.RowDefinitions >
+                        <RowDefinition Height="Auto" />
+                        <RowDefinition Height="Auto" />
+                    </Grid.RowDefinitions>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="140" />
+                        <ColumnDefinition Width="*" />
+                    </Grid.ColumnDefinitions>
+
+                    <Label Text="Phone:" 
+                           Grid.Row="0" Grid.Column="0" />
+                    <Label Text="{x:Static local:MyStrngCnsts.oglClncNumbr}" 
+                           Grid.Row="0" Grid.Column="1" 
+                           TextColor="Blue">
+                        <Label.GestureRecognizers>
+                           <TapGestureRecognizer 
+                             Tapped = "OnNumbrTapped"
+                             NumberOfTapsRequired="1"/>                            
+                        </Label.GestureRecognizers> 
+                    </Label>
+
+                    <Label Text="Address:" 
+                           Grid.Row="1" Grid.Column="0" />
+                    <Label Text="{x:Static local:MyStrngCnsts.oglClncAddr}" 
+                           Grid.Row="1" Grid.Column="1" 
+                           TextColor="Blue">
+                        <Label.GestureRecognizers>
+                           <TapGestureRecognizer 
+                             Tapped = "OnAddrTapped"
+                             NumberOfTapsRequired="1"/>                            
+                        </Label.GestureRecognizers> 
+                    </Label>
+                </Grid>
+
+                <!-- ****** Rehoboth  *******        -->
+
+                <Label Text="&#x0a;Rehoboth" FontAttributes="Bold"/>
+                <Label Text="Serving Houston, Peach, Taylor, and Crawford Counties." />
+                <Grid RowSpacing="2">
+                    <!-- 3 rows 2 columns  -->
+                    <Grid.RowDefinitions >
+                        <RowDefinition Height="Auto" />
+                        <RowDefinition Height="Auto" />
+                        <RowDefinition Height="Auto" />
+                    </Grid.RowDefinitions>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="140" />
+                        <ColumnDefinition Width="*" />
+                    </Grid.ColumnDefinitions>
+                    <Label  Text="Phone:" 
+                            Grid.Row="0" Grid.Column="0" />
+                    <Label  Text="{x:Static local:MyStrngCnsts.rhbthNumbr}" 
+                            Grid.Row="0" Grid.Column="1" 
+                            TextColor="Blue">
+                        <Label.GestureRecognizers>
+                           <TapGestureRecognizer 
+                             Tapped = "OnNumbrTapped"
+                             NumberOfTapsRequired="1"/>                            
+                        </Label.GestureRecognizers> 
+                    </Label>
+
+                    <Label  Text="Address:" 
+                            Grid.Row="1" Grid.Column="0" />
+                    <Label  Text="{x:Static local:MyStrngCnsts.rhbthAddr}" 
+                            Grid.Row="1" Grid.Column="1"
+                            TextColor="Blue">
+                        <Label.GestureRecognizers>
+                           <TapGestureRecognizer 
+                             Tapped = "OnAddrTapped"
+                             NumberOfTapsRequired="1"/>                            
+                        </Label.GestureRecognizers> 
+                    </Label>
+
+                    <Label  Text="Website:" 
+                            Grid.Row="2" Grid.Column="0" />
+                    <Label  Text="{x:Static local:MyStrngCnsts.rhbthWeb}" 
+                            Grid.Row="2" Grid.Column="1" 
+                            TextColor="Blue">
+                        <Label.GestureRecognizers>
+                           <TapGestureRecognizer 
+                             Tapped = "OnUrlTapped"
+                             NumberOfTapsRequired="1"/>                            
+                        </Label.GestureRecognizers> 
+                    </Label>
+                </Grid>
+                
+         </StackLayout>
+            
+      </ScrollView>
+                                 
+    </ContentPage.Content>
+    
+</ContentPage>

@@ -1,0 +1,47 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="DaybreakMacon.MainPage_iOSMaster"
+             xmlns:local="clr-namespace:DaybreakMacon"
+             Padding="0,40,0,0"
+             Title="&lt;" 
+             Icon="hamburger.png"
+             BackgroundColor="Blue">
+
+    <ContentPage.Content >
+
+        <StackLayout VerticalOptions="FillAndExpand"   Padding="10,20,0,0"
+                     BackgroundColor="{x:Static local:ColorCnsts.ButtonColor}"   >
+            <ListView x:Name="lstVw" 
+                      BackgroundColor="{x:Static local:ColorCnsts.ButtonColor}" 
+                      VerticalOptions="FillAndExpand"  
+                      SeparatorVisibility="None" >
+
+                <ListView.ItemTemplate >
+
+                    <DataTemplate >
+
+                        <ViewCell>
+                            <StackLayout Padding="0,20,0,0" 
+                                   BackgroundColor="{x:Static local:ColorCnsts.ButtonColor}">
+                                <Grid>
+                                    <Grid.ColumnDefinitions>
+                                        <ColumnDefinition Width="Auto" />
+                                        <ColumnDefinition Width="*" />
+                                    </Grid.ColumnDefinitions>
+
+                                    <Image Grid.Column="0" Source="{Binding IconSource}" />
+                                    <Label Grid.Column="1" Text="{Binding Title}" 
+                                           FontAttributes="Bold" />
+                                </Grid>
+                            </StackLayout>
+                        </ViewCell>
+
+                    </DataTemplate>
+                </ListView.ItemTemplate>
+            </ListView>
+        </StackLayout>
+
+    </ContentPage.Content>
+
+</ContentPage>

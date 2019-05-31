@@ -1,0 +1,771 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="DaybreakMacon.OthSrvsPage"
+             
+             xmlns:local="clr-namespace:DaybreakMacon"
+             Title="Other Services"
+             BackgroundColor= "{x:Static local:ColorCnsts.DayBreakBackgroundColor}"
+             NavigationPage.BackButtonTitle="  " >
+
+    <ContentPage.Padding>
+
+        <OnPlatform x:TypeArguments="Thickness"
+                    iOS="20, 40, 20, 20"
+                    Android="20, 20, 20, 20"
+                    WinPhone="20, 20, 20, 20" />
+    </ContentPage.Padding>
+
+    <ScrollView>
+
+        <StackLayout   VerticalOptions="FillAndExpand"
+                       HorizontalOptions="FillAndExpand"
+                       Orientation="Vertical"
+                       Spacing="2" >
+
+            <Label Text="FINANCIAL ASSISTANCE &#x0a;" FontAttributes="Bold" 
+               HorizontalOptions="Center"/>
+            
+     <!-- ****** Salvation Army  *******  -->
+
+            <Label Text="Salvation Army" FontAttributes="Bold"/>
+            <Grid RowSpacing="2">
+                                                        <!-- 3 rows 2 columns  -->
+                <Grid.RowDefinitions >
+                    <RowDefinition Height="Auto" />     <!-- row 0 -->
+                    <RowDefinition Height="Auto" />     <!-- row 1 -->
+                    <RowDefinition Height="Auto" />     <!-- row 2 -->
+                </Grid.RowDefinitions>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="140" />
+                    <ColumnDefinition Width="*" />
+                </Grid.ColumnDefinitions>
+
+                <Label Text="Wednesday:" 
+                   Grid.Row="0" Grid.Column="0" />
+                <Label Text="Call at 8:30 AM for appointment." 
+                   Grid.Row="0" Grid.Column="1" />
+                
+                <Label Text="Phone:" 
+                   Grid.Row="1" Grid.Column="0" />
+                <Label  Text="478-741-7156" 
+                        Grid.Row="1" Grid.Column="1" 
+                        TextColor="Blue">
+                    <Label.GestureRecognizers>
+                        <TapGestureRecognizer 
+                            Tapped = "OnNumbrTapped"
+                            NumberOfTapsRequired="1"/>
+                    </Label.GestureRecognizers>
+                </Label>
+                
+                <Label Grid.Row="2" Grid.Column="0"  
+                       Text="Address:" />
+                <Label Grid.Row="2" Grid.Column="1"
+                       Text="{x:Static local:MyStrngCnsts.salvArmyAddr}"                         
+                       TextColor="Blue">
+                    <Label.GestureRecognizers>
+                        <TapGestureRecognizer 
+                           Tapped = "OnAddrTapped"
+                           NumberOfTapsRequired="1"/>
+                    </Label.GestureRecognizers>
+                </Label>
+            </Grid>
+
+            <Label Text="&#x0a;FREE WiFi" FontAttributes="Bold" 
+               HorizontalOptions="Center"/>
+
+    <!-- ****** Adriana's  *******  -->
+            
+            <Label Text="&#x0a;Adriana's" FontAttributes="Bold"/>
+            <Label Text="You can sit across the street in the benches." />
+            <Grid RowSpacing="2">
+                                                        <!-- 3 rows 2 columns  -->
+                <Grid.RowDefinitions >
+                    <RowDefinition Height="Auto" />     <!-- row 0 -->
+                    <RowDefinition Height="Auto" />     <!-- row 1 -->
+                    <RowDefinition Height="Auto" />     <!-- row 2 -->
+                </Grid.RowDefinitions>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="140" />
+                    <ColumnDefinition Width="*" />
+                </Grid.ColumnDefinitions>
+
+                <Label  Text="Monday to Friday:" 
+                        Grid.Row="0" Grid.Column="0" />
+                <Label  Text="11 AM - 3:30 PM" 
+                        Grid.Row="0" Grid.Column="1" />
+                
+                <Label  Text="Phone:" 
+                        Grid.Row="1" Grid.Column="0" />
+                <Label  Text="{x:Static local:MyStrngCnsts.adrnNumbr}" 
+                        Grid.Row="1" Grid.Column="1" 
+                        TextColor="Blue">
+                    <Label.GestureRecognizers>
+                        <TapGestureRecognizer 
+                           Tapped = "OnNumbrTapped"
+                           NumberOfTapsRequired="1"/>
+                    </Label.GestureRecognizers>
+                </Label>
+
+                <Label  Text="Address:" 
+                        Grid.Row="2" Grid.Column="0" />
+                <Label  Text="{x:Static local:MyStrngCnsts.adrnAddr}" 
+                        Grid.Row="2" Grid.Column="1" 
+                        TextColor="Blue">
+                  <Label.GestureRecognizers>
+                    <TapGestureRecognizer 
+                           Tapped = "OnAddrTapped"
+                           NumberOfTapsRequired="1"/>
+                  </Label.GestureRecognizers>
+                </Label>
+            </Grid>
+            
+
+          <!-- ****** Burger King  *******  -->
+            
+               <Label Text="&#x0a;Burger King - Gray Hwy" 
+                      FontAttributes="Bold"/>
+                <Grid RowSpacing="2" >
+                                        <!-- 5 rows 2 columns  -->
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="Auto" />
+                        <RowDefinition Height="Auto" />
+                        <RowDefinition Height="Auto" />
+                        <RowDefinition Height="Auto" />
+                        <RowDefinition Height="Auto" />
+                    </Grid.RowDefinitions>
+
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="140" />
+                        <ColumnDefinition Width="*" />
+                    </Grid.ColumnDefinitions>
+                    
+                    <Label  Text="Sunday:"  Grid.Row="0" Grid.Column="0" />
+                    <Label  Text="7 AM - 12 Midnight"  
+                            Grid.Row="0" Grid.Column="1" />
+                
+                    <Label  Text="Monday to &#x0a;Thursday:"  
+                            Grid.Row="1" Grid.Column="0" />
+                    <Label  Text="5:30 AM - 12 Midnight"  
+                            Grid.Row="1" Grid.Column="1" />
+
+                    <Label  Text="Friday to Saturday:"  
+                            Grid.Row="2" Grid.Column="0" />
+                    <Label  Text="5:30 AM - 1 AM"  
+                            Grid.Row="2" Grid.Column="1" />
+                            
+                    <Label  Text="Phone:"  Grid.Row="3" Grid.Column="0" />
+                    <Label  Text="478-745-5019" 
+                            TextColor="Blue"  Grid.Row="3" Grid.Column="1" >
+                        
+                        <Label.GestureRecognizers>
+                          <TapGestureRecognizer 
+                            Tapped = "OnNumbrTapped"
+                            NumberOfTapsRequired="1"/>                            
+                        </Label.GestureRecognizers>                   
+                    </Label>
+
+                    <Label  Text="Address:"  Grid.Row="4" Grid.Column="0" />
+                    <Label  Text="1188 Gray Highway, &#x0a;Macon, GA 31211" 
+                            TextColor="Blue" Grid.Row="4" Grid.Column="1">
+                        
+                        <Label.GestureRecognizers>
+                          <TapGestureRecognizer 
+                            Tapped = "OnAddrTapped"
+                            NumberOfTapsRequired="1"/>                            
+                        </Label.GestureRecognizers>                   
+                    </Label>
+                </Grid>
+            
+         <!-- ******  Daybreak *******  -->
+            
+              <Label Text="&#x0a;Daybreak" FontAttributes="Bold"/>
+                <Grid RowSpacing="1" >
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="Auto" />  <!-- row 0  -->
+                        <RowDefinition Height="Auto" />  <!-- row 1  -->
+                        <RowDefinition Height="Auto" />  <!-- row 2  -->
+                        <RowDefinition Height="Auto" />  <!-- row 3  -->
+                        <RowDefinition Height="Auto" />  <!-- row 4  -->
+                        <RowDefinition Height="Auto" />  <!-- row 5  -->
+                        <RowDefinition Height="Auto" />  <!-- row 6  -->
+                    </Grid.RowDefinitions>
+
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="140" />
+                        <ColumnDefinition Width="*" />
+                    </Grid.ColumnDefinitions>
+
+                    <Label  Text="Monday:"  Grid.Row="0" Grid.Column="0" />
+                    <Label  Text="7:30 AM - 11 AM and &#x0a;12 PM - 4 PM"  
+                            Grid.Row="0" Grid.Column="1" />
+                   
+                    <Label  Text="Tuesday:"  Grid.Row="1" Grid.Column="0" />
+                    <Label  Text="12:30 PM - 4 PM"  Grid.Row="1" Grid.Column="1" />
+
+                    <Label  Text="Wednesday:"  Grid.Row="2" Grid.Column="0" />
+                    <Label  Text="7:30 AM - 11 AM and &#x0a;12 PM - 4pm"  Grid.Row="2" Grid.Column="1" />
+                    
+                    <Label  Text="Thursday:"  Grid.Row="3" Grid.Column="0" />
+                    <Label  Text="7:30 AM - 11 AM and &#x0a;12 PM - 4pm"  Grid.Row="3" Grid.Column="1" />
+                    
+                    <Label  Text="Friday:"  Grid.Row="4" Grid.Column="0" />
+                    <Label  Text="7:30 AM - 11 AM and &#x0a;12 PM - 4pm"  Grid.Row="4" Grid.Column="1" />
+
+                    <Label  Text="Phone:"  Grid.Row="5" Grid.Column="0" />
+                    <Label  Text="{x:Static local:MyStrngCnsts.daybreakNumbr}" 
+                            TextColor="Blue"  Grid.Row="5" Grid.Column="1" >
+                        
+                        <Label.GestureRecognizers>
+                          <TapGestureRecognizer 
+                            Tapped = "OnNumbrTapped"
+                            NumberOfTapsRequired="1"/>                            
+                        </Label.GestureRecognizers>                   
+                    </Label>
+
+                    <Label  Text="Address:"  Grid.Row="6" Grid.Column="0" />
+                    <Label  Text="{x:Static local:MyStrngCnsts.daybreakAddr}" 
+                            TextColor="Blue" Grid.Row="6" Grid.Column="1">
+                        
+                        <Label.GestureRecognizers>
+                          <TapGestureRecognizer 
+                            Tapped = "OnAddrTapped"
+                            NumberOfTapsRequired="1"/>                            
+                        </Label.GestureRecognizers>                   
+                    </Label>
+                </Grid>
+            
+          <!-- ******  Hummingbird  *******  -->
+            
+               <Label Text="&#x0a;Hummingbird" FontAttributes="Bold"/>
+                <Grid RowSpacing="2" >
+                                                            <!-- 5 rows 2 columns  -->
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="Auto" />     <!-- rows 0 -->
+                        <RowDefinition Height="Auto" />     <!-- rows 1 -->
+                        <RowDefinition Height="Auto" />     <!-- rows 2 -->
+                        <RowDefinition Height="Auto" />     <!-- rows 3 -->
+                        <RowDefinition Height="Auto" />     <!-- rows 4 -->
+                    </Grid.RowDefinitions>
+
+                    <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="140" />
+                        <ColumnDefinition Width="*" />
+                    </Grid.ColumnDefinitions>
+                
+                    <Label  Text="You can sit on a nearby bench."  
+                            Grid.Row="0" 
+                            Grid.Column="0" Grid.ColumnSpan="2" />
+                
+                    <Label  Text="Sunday:"  
+                            Grid.Row="1" Grid.Column="0" />
+                    <Label  Text="6 PM - 12 Midnight"  
+                            Grid.Row="1" Grid.Column="1" />
+
+                    <Label  Text="Monday to &#x0a;Saturday:"  
+                            Grid.Row="2" Grid.Column="0" />
+                    <Label  Text="4 PM - 2 AM"  
+                            Grid.Row="2" Grid.Column="1" />
+                            
+                    <Label  Text="Phone:"  Grid.Row="3" Grid.Column="0" />
+                    <Label  Text="478-741-9130" 
+                            TextColor="Blue"  Grid.Row="3" Grid.Column="1" >
+                        
+                        <Label.GestureRecognizers>
+                          <TapGestureRecognizer 
+                            Tapped = "OnNumbrTapped"
+                            NumberOfTapsRequired="1"/>                            
+                        </Label.GestureRecognizers>                   
+                    </Label>
+
+                    <Label  Text="Address:"  Grid.Row="4" Grid.Column="0" />
+                    <Label  Text="430 Cherry St, &#x0a;Macon, GA 31201" 
+                            TextColor="Blue" Grid.Row="4" Grid.Column="1">
+                        
+                        <Label.GestureRecognizers>
+                          <TapGestureRecognizer 
+                            Tapped = "OnAddrTapped"
+                            NumberOfTapsRequired="1"/>                            
+                        </Label.GestureRecognizers>                   
+                    </Label>
+                
+                </Grid>
+
+         <!-- ******  Jittery Joe's *******  -->
+            
+               <Label Text="&#x0a;Jittery Joe's" FontAttributes="Bold"/>
+                <Grid RowSpacing="2" >
+                                                        <!-- 5 rows 2 columns  -->
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="Auto" />     <!-- rows 0 -->
+                        <RowDefinition Height="Auto" />     <!-- rows 1 -->
+                        <RowDefinition Height="Auto" />     <!-- rows 2 -->
+                        <RowDefinition Height="Auto" />     <!-- rows 3 -->
+                        <RowDefinition Height="Auto" />     <!-- rows 4 -->
+                    </Grid.RowDefinitions>
+
+                    <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="140" />
+                        <ColumnDefinition Width="*" />
+                    </Grid.ColumnDefinitions>
+                
+                    <Label  Text="Sunday:"  Grid.Row="0" Grid.Column="0" />
+                    <Label  Text="10 AM - 4 PM"  
+                            Grid.Row="0" Grid.Column="1" />
+
+                    <Label  Text="Monday to Friday:"  
+                            Grid.Row="1" Grid.Column="0" />
+                    <Label  Text="7 AM - 6 PM"  
+                            Grid.Row="1" Grid.Column="1" />
+
+                    <Label  Text="Saturday:"  
+                            Grid.Row="2" Grid.Column="0" />
+                    <Label  Text="8 AM - 6 PM"  
+                            Grid.Row="2" Grid.Column="1" />
+                            
+                    <Label  Text="Phone:"  Grid.Row="3" Grid.Column="0" />
+                    <Label  Text="478-621-5400" 
+                            TextColor="Blue"  Grid.Row="3" Grid.Column="1" >
+                        
+                        <Label.GestureRecognizers>
+                          <TapGestureRecognizer 
+                            Tapped = "OnNumbrTapped"
+                            NumberOfTapsRequired="1"/>                            
+                        </Label.GestureRecognizers>                   
+                    </Label>
+
+                    <Label  Text="Address:"  Grid.Row="4" Grid.Column="0" />
+                    <Label  Text="1635 Montpelier Ave, &#x0a;Macon, GA 31201" 
+                            TextColor="Blue" Grid.Row="4" Grid.Column="1">
+                        
+                        <Label.GestureRecognizers>
+                          <TapGestureRecognizer 
+                            Tapped = "OnAddrTapped"
+                            NumberOfTapsRequired="1"/>                            
+                        </Label.GestureRecognizers>                   
+                    </Label>
+                </Grid>
+                      
+
+         <!-- ****** Krystal *******  -->
+            
+            <Label Text="&#x0a;Krystal - Riverside Dr" FontAttributes="Bold"/>
+            <Grid RowSpacing="2">
+                                                        <!-- 3 rows 2 columns  -->
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="Auto" />     <!-- rows 0 -->
+                    <RowDefinition Height="Auto" />     <!-- rows 1 -->
+                    <RowDefinition Height="Auto" />     <!-- rows 2 -->
+                </Grid.RowDefinitions>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="140" />
+                    <ColumnDefinition Width="*" />
+                </Grid.ColumnDefinitions>
+
+                <Label  Text="Open 24 hours everyday." 
+                        Grid.Row="0" Grid.Column="0" Grid.ColumnSpan="2" />
+                <Label  Text="Phone:" 
+                        Grid.Row="1" Grid.Column="0" />
+                <Label  Text="478-745-5958" 
+                        Grid.Row="1" Grid.Column="1" 
+                        TextColor="Blue">
+                    <Label.GestureRecognizers>
+                        <TapGestureRecognizer 
+                           Tapped = "OnNumbrTapped"
+                           NumberOfTapsRequired="1"/>
+                    </Label.GestureRecognizers>
+                </Label>
+
+                <Label  Text="Address:" 
+                        Grid.Row="2" Grid.Column="0" />
+                <Label  Text="892 Riverside Drive, &#x0a;Macon, GA 31201" 
+                        Grid.Row="2" Grid.Column="1" 
+                        TextColor="Blue">
+                  <Label.GestureRecognizers>
+                    <TapGestureRecognizer 
+                           Tapped = "OnAddrTapped"
+                           NumberOfTapsRequired="1"/>
+                  </Label.GestureRecognizers>
+                </Label>
+            </Grid>
+            
+
+         <!-- ****** The Lamar *******  -->
+            
+            <Label Text="&#x0a;The Lamar" FontAttributes="Bold"/>
+            <Grid RowSpacing="2">
+                                        <!-- 3 rows 2 columns  -->
+                <Grid.RowDefinitions >
+                    <RowDefinition Height="Auto" />
+                    <RowDefinition Height="Auto" />
+                    <RowDefinition Height="Auto" />
+                </Grid.RowDefinitions>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="140" />
+                    <ColumnDefinition Width="*" />
+                </Grid.ColumnDefinitions>
+                
+                <Label  Text="You can sit on a nearby bench." 
+                        Grid.Row="0" Grid.Column="0" Grid.ColumnSpan="2" />
+                
+                <Label  Text="Phone:" 
+                        Grid.Row="1" Grid.Column="0" />
+                <Label  Text="478-257-7979" 
+                        Grid.Row="1" Grid.Column="1" 
+                        TextColor="Blue">
+                    <Label.GestureRecognizers>
+                        <TapGestureRecognizer 
+                           Tapped = "OnNumbrTapped"
+                           NumberOfTapsRequired="1"/>
+                    </Label.GestureRecognizers>
+                </Label>
+
+                <Label  Text="Address:" 
+                        Grid.Row="2" Grid.Column="0" />
+                <Label  Text="562 Cherry St, &#x0a;Macon, GA 31201" 
+                        Grid.Row="2" Grid.Column="1" 
+                        TextColor="Blue">
+                  <Label.GestureRecognizers>
+                    <TapGestureRecognizer 
+                           Tapped = "OnAddrTapped"
+                           NumberOfTapsRequired="1"/>
+                  </Label.GestureRecognizers>
+                </Label>
+                
+            </Grid>
+            
+            
+         <!-- ****** McDonald's - Navicent *******  -->
+            
+            <Label Text="&#x0a;McDonald's - Navicent Hospital" 
+                    FontAttributes="Bold"/>
+            <Grid RowSpacing="2">
+                                            <!-- 2 rows 2 columns  -->
+                <Grid.RowDefinitions >
+                    <RowDefinition Height="Auto" />
+                    <RowDefinition Height="Auto" />
+                </Grid.RowDefinitions>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="140" />
+                    <ColumnDefinition Width="*" />
+                </Grid.ColumnDefinitions>
+
+                <Label  Text="Address:" 
+                        Grid.Row="0" Grid.Column="0" />
+                <Label  Text="Navicent Hospital" 
+                        Grid.Row="0" Grid.Column="1" />
+                <Label  Text="{x:Static local:MyStrngCnsts.mcdNavAddr}" 
+                        Grid.Row="1" Grid.Column="1" 
+                        TextColor="Blue">
+                    <Label.GestureRecognizers>
+                        <TapGestureRecognizer 
+                           Tapped = "OnAddrTapped"
+                           NumberOfTapsRequired="1"/>
+                    </Label.GestureRecognizers>
+                </Label>
+
+            </Grid>
+
+
+            <!-- ****** McDonald's - Pio Nono *******  -->
+            
+            <Label Text="&#x0a;McDonald's - Pio Nono Ave" 
+                    FontAttributes="Bold"/>
+            <Grid RowSpacing="2">
+                                        <!-- 3 rows 2 columns  -->
+                <Grid.RowDefinitions >
+                    <RowDefinition Height="Auto" />
+                    <RowDefinition Height="Auto" />
+                    <RowDefinition Height="Auto" />
+                </Grid.RowDefinitions>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="140" />
+                    <ColumnDefinition Width="*" />
+                </Grid.ColumnDefinitions>
+
+                <Label  Text="Open 24 hours everyday." 
+                        Grid.Row="0" Grid.Column="0" Grid.ColumnSpan="2" />
+                <Label  Text="Phone:" 
+                        Grid.Row="1" Grid.Column="0" />
+                <Label  Text="478-788-1150" 
+                        Grid.Row="1" Grid.Column="1" 
+                        TextColor="Blue">
+                    <Label.GestureRecognizers>
+                        <TapGestureRecognizer 
+                           Tapped = "OnNumbrTapped"
+                           NumberOfTapsRequired="1"/>
+                    </Label.GestureRecognizers>
+                </Label>
+
+                <Label  Text="Address:" 
+                        Grid.Row="2" Grid.Column="0" />
+                <Label  Text="2497 Pio Nono Ave, &#x0a;Macon, GA 31206" 
+                        Grid.Row="2" Grid.Column="1" 
+                        TextColor="Blue">
+                  <Label.GestureRecognizers>
+                    <TapGestureRecognizer 
+                           Tapped = "OnAddrTapped"
+                           NumberOfTapsRequired="1"/>
+                  </Label.GestureRecognizers>
+                </Label>
+            </Grid>
+
+            <!-- ****** McDonald's - Gray Hwy *******  -->
+            
+            <Label Text="&#x0a;McDonald's - Gray Hwy" FontAttributes="Bold"/>
+            <Grid RowSpacing="2">
+                                        <!-- 3 rows 2 columns  -->
+                <Grid.RowDefinitions >
+                    <RowDefinition Height="Auto" />
+                    <RowDefinition Height="Auto" />
+                    <RowDefinition Height="Auto" />
+                </Grid.RowDefinitions>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="140" />
+                    <ColumnDefinition Width="*" />
+                </Grid.ColumnDefinitions>
+
+                <Label  Text="Open 4 AM to 12 Midnight everyday." 
+                        Grid.Row="0" Grid.Column="0" Grid.ColumnSpan="2" />
+                <Label  Text="Phone:" 
+                        Grid.Row="1" Grid.Column="0" />
+                <Label  Text="478-745-6324" 
+                        Grid.Row="1" Grid.Column="1" 
+                        TextColor="Blue">
+                    <Label.GestureRecognizers>
+                        <TapGestureRecognizer 
+                           Tapped = "OnNumbrTapped"
+                           NumberOfTapsRequired="1"/>
+                    </Label.GestureRecognizers>
+                </Label>
+
+                <Label  Text="Address:" 
+                        Grid.Row="2" Grid.Column="0" />
+                <Label  Text="550 Gray Highway, &#x0a;Macon, GA 31201" 
+                        Grid.Row="2" Grid.Column="1" 
+                        TextColor="Blue">
+                  <Label.GestureRecognizers>
+                    <TapGestureRecognizer 
+                           Tapped = "OnAddrTapped"
+                           NumberOfTapsRequired="1"/>
+                  </Label.GestureRecognizers>
+                </Label>
+            </Grid>
+
+         <!-- ****** McDonald's - Rocky Creek *******  -->
+            <Label Text="&#x0a;McDonald's - Rocky Creek Rd" 
+                    FontAttributes="Bold"/>
+            <Grid RowSpacing="2">
+                                        <!-- 3 rows 2 columns  -->
+                <Grid.RowDefinitions >
+                    <RowDefinition Height="Auto" />
+                    <RowDefinition Height="Auto" />
+                    <RowDefinition Height="Auto" />
+                </Grid.RowDefinitions>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="140" />
+                    <ColumnDefinition Width="*" />
+                </Grid.ColumnDefinitions>
+
+                <Label  Text="Open 24 hours everyday." 
+                        Grid.Row="0" Grid.Column="0" Grid.ColumnSpan="2" />
+                <Label  Text="Phone:" 
+                        Grid.Row="1" Grid.Column="0" />
+                <Label  Text="478-788-4233" 
+                        Grid.Row="1" Grid.Column="1" 
+                        TextColor="Blue">
+                    <Label.GestureRecognizers>
+                        <TapGestureRecognizer 
+                           Tapped = "OnNumbrTapped"
+                           NumberOfTapsRequired="1"/>
+                    </Label.GestureRecognizers>
+                </Label>
+
+                <Label  Text="Address:" 
+                        Grid.Row="2" Grid.Column="0" />
+                <Label  Text="1450 Rocky Creek Rd, &#x0a;Macon, GA 31206" 
+                        Grid.Row="2" Grid.Column="1" 
+                        TextColor="Blue">
+                  <Label.GestureRecognizers>
+                    <TapGestureRecognizer 
+                           Tapped = "OnAddrTapped"
+                           NumberOfTapsRequired="1"/>
+                  </Label.GestureRecognizers>
+                </Label>
+            </Grid>
+            
+         <!-- ****** McDonald's - Harrison Rd *******  -->
+            
+            <Label Text="&#x0a;McDonald's - Harrison Rd" 
+                    FontAttributes="Bold"/>
+            <Grid RowSpacing="2">
+                                        <!-- 3 rows 2 columns  -->
+                <Grid.RowDefinitions >
+                    <RowDefinition Height="Auto" />
+                    <RowDefinition Height="Auto" />
+                    <RowDefinition Height="Auto" />
+                </Grid.RowDefinitions>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="140" />
+                    <ColumnDefinition Width="*" />
+                </Grid.ColumnDefinitions>
+
+                <Label  Text="Open 24 hours everyday." 
+                        Grid.Row="0" Grid.Column="0" Grid.ColumnSpan="2" />
+                <Label  Text="Phone:" 
+                        Grid.Row="1" Grid.Column="0" />
+                <Label  Text="478-474-2396" 
+                        Grid.Row="1" Grid.Column="1" 
+                        TextColor="Blue">
+                    <Label.GestureRecognizers>
+                        <TapGestureRecognizer 
+                           Tapped = "OnNumbrTapped"
+                           NumberOfTapsRequired="1"/>
+                    </Label.GestureRecognizers>
+                </Label>
+
+                <Label  Text="Address:" 
+                        Grid.Row="2" Grid.Column="0" />
+                <Label  Text="5020 Harrison Rd, &#x0a;Macon, GA 31206" 
+                        Grid.Row="2" Grid.Column="1" 
+                        TextColor="Blue">
+                  <Label.GestureRecognizers>
+                    <TapGestureRecognizer 
+                           Tapped = "OnAddrTapped"
+                           NumberOfTapsRequired="1"/>
+                  </Label.GestureRecognizers>
+                </Label>
+            </Grid>
+
+         <!-- ****** Rosa Parks Square *******  -->
+            <Label Text="&#x0a;Rosa Parks Square" FontAttributes="Bold"/>
+            <Grid RowSpacing="2">
+                                        <!-- 1 row 2 columns  -->
+                <Grid.RowDefinitions >
+                    <RowDefinition Height="Auto" />
+                </Grid.RowDefinitions>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="140" />
+                    <ColumnDefinition Width="*" />
+                </Grid.ColumnDefinitions>
+
+                <Label  Text="Address:" 
+                        Grid.Row="0" Grid.Column="0" />
+                <Label  Text="Poplar St and 1st St, &#x0a;Macon, GA 31201" 
+                        Grid.Row="0" Grid.Column="1" 
+                        TextColor="Blue">
+                  <Label.GestureRecognizers>
+                    <TapGestureRecognizer 
+                           Tapped = "OnAddrTapped"
+                           NumberOfTapsRequired="1"/>
+                  </Label.GestureRecognizers>
+                </Label>
+                
+            </Grid>
+                                    
+         <!-- ****** Taco Bell - Gray Hwy *******  -->
+            <Label Text="&#x0a;Taco Bell - Gray Hwy" FontAttributes="Bold"/>
+            <Grid RowSpacing="2">
+                                        <!-- 3 rows 2 columns  -->
+                <Grid.RowDefinitions >
+                    <RowDefinition Height="Auto" />
+                    <RowDefinition Height="Auto" />
+                    <RowDefinition Height="Auto" />
+                </Grid.RowDefinitions>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="140" />
+                    <ColumnDefinition Width="*" />
+                </Grid.ColumnDefinitions>
+
+                <Label  Text="7 AM - 2 AM everyday." 
+                        Grid.Row="0" Grid.Column="0" Grid.ColumnSpan="2" />
+                <Label  Text="Phone:" 
+                        Grid.Row="1" Grid.Column="0" />
+                <Label  Text="478-743-5015" 
+                        Grid.Row="1" Grid.Column="1" 
+                        TextColor="Blue">
+                    <Label.GestureRecognizers>
+                        <TapGestureRecognizer 
+                           Tapped = "OnNumbrTapped"
+                           NumberOfTapsRequired="1"/>
+                    </Label.GestureRecognizers>
+                </Label>
+
+                <Label  Text="Address:" 
+                        Grid.Row="2" Grid.Column="0" />
+                <Label  Text="945 Gray Highway, &#x0a;Macon, GA 31211" 
+                        Grid.Row="2" Grid.Column="1" 
+                        TextColor="Blue">
+                  <Label.GestureRecognizers>
+                    <TapGestureRecognizer 
+                           Tapped = "OnAddrTapped"
+                           NumberOfTapsRequired="1"/>
+                  </Label.GestureRecognizers>
+                </Label>
+            </Grid>
+            
+          <!-- ******  Washington Public Library  *******  -->
+            
+               <Label Text="&#x0a;Washington Public Library" 
+                      FontAttributes="Bold"/>
+                <Grid RowSpacing="2" >
+                                        <!-- 4 rows 2 columns  -->
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="Auto" />
+                        <RowDefinition Height="Auto" />
+                        <RowDefinition Height="Auto" />
+                        <RowDefinition Height="Auto" />
+                    </Grid.RowDefinitions>
+
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="140" />
+                        <ColumnDefinition Width="*" />
+                    </Grid.ColumnDefinitions>
+
+                    <Label  Text="Monday to &#x0a;Thursday:"  
+                            Grid.Row="0" Grid.Column="0" />
+                    <Label  Text="9 AM - 9 PM"  
+                            Grid.Row="0" Grid.Column="1" />
+
+                    <Label  Text="Friday to Saturday:"  
+                            Grid.Row="1" Grid.Column="0" />
+                    <Label  Text="9 AM - 6 PM"  
+                            Grid.Row="1" Grid.Column="1" />
+
+                    <Label  Text="Phone:"  Grid.Row="2" Grid.Column="0" />
+                    <Label  Text="478-744-0800" 
+                            TextColor="Blue"  Grid.Row="2" Grid.Column="1" >
+                        
+                        <Label.GestureRecognizers>
+                          <TapGestureRecognizer 
+                            Tapped = "OnNumbrTapped"
+                            NumberOfTapsRequired="1"/>                            
+                        </Label.GestureRecognizers>                   
+                    </Label>
+
+                    <Label  Text="Address:"  Grid.Row="3" Grid.Column="0" />
+                    <Label  Text="1180 Washington Ave, &#x0a;Macon, GA 31201" 
+                            TextColor="Blue" Grid.Row="3" Grid.Column="1">
+                        
+                        <Label.GestureRecognizers>
+                          <TapGestureRecognizer 
+                            Tapped = "OnAddrTapped"
+                            NumberOfTapsRequired="1"/>                            
+                        </Label.GestureRecognizers>                   
+                    </Label>
+                
+                </Grid>
+
+            <Label Text="&#x0a;PUBLIC ELECTRIC OUTLETS" FontAttributes="Bold" 
+               HorizontalOptions="Center"/>
+
+          <!-- ****** Third Street Park  *******  -->
+            <Label Text="&#x0a;Third Street Park" FontAttributes="Bold"/>
+            <Label Text="Both sides of the fountain." />
+ 
+
+        </StackLayout>
+
+    </ScrollView>
+    
+</ContentPage>

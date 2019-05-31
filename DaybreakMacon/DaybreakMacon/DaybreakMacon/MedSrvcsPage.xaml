@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="DaybreakMacon.MedSrvcsPage"
+             xmlns:local="clr-namespace:DaybreakMacon"
+             BackgroundColor="{x:Static local:ColorCnsts.DayBreakBackgroundColor}"
+             NavigationPage.BackButtonTitle="  " >
+    
+    <!-- 
+       NavigationPage.BackButtonTitle="  "  
+    -->     
+
+    <ContentPage.Padding>
+
+        <OnPlatform x:TypeArguments="Thickness"
+                    iOS="20, 40, 20, 20"
+                    Android="20, 20, 20, 20"
+                    WinPhone="20, 20, 20, 20" />
+    </ContentPage.Padding>
+        
+
+    <ContentPage.Content>
+    
+      <ScrollView>
+            
+        <StackLayout   VerticalOptions="FillAndExpand"
+                       HorizontalOptions="FillAndExpand"
+                       Orientation="Vertical"
+                       Spacing="2" >
+
+                <Grid RowSpacing="9" >
+                    <Grid.RowDefinitions>
+                        <RowDefinition  Height="Auto" />
+                        <RowDefinition  Height="Auto" />
+                        <RowDefinition  Height="Auto" />
+                        <RowDefinition  Height="Auto" />
+                    </Grid.RowDefinitions>
+
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="*" />
+                        <ColumnDefinition Width="5*" />
+                    </Grid.ColumnDefinitions>
+
+                    <Image Grid.Row="0" Grid.Column="0" 
+                           Source="nurse.png" HeightRequest="50" />
+
+                    <Button Grid.Row="0" Grid.Column="1"
+                        x:Name="mdCrBttn" Text="Medical Care"  FontAttributes="Bold" 
+                        TextColor="Black" FontSize="20"                 
+                        BackgroundColor=
+                            "{x:Static local:ColorCnsts.ButtonColor}" 
+                        Clicked="OnMedSrvcsPageBtnClckd"/>
+
+                    <Image Grid.Row="1" Grid.Column="0" 
+                           Source="pill.png" HeightRequest="50" />
+
+                    <Button Grid.Row="1" Grid.Column="1"
+                        x:Name="prsBttn" Text="Prescription"  FontAttributes="Bold" 
+                        TextColor="Black" FontSize="20"                 
+                        BackgroundColor=
+                            "{x:Static local:ColorCnsts.ButtonColor}" 
+                        Clicked="OnMedSrvcsPageBtnClckd"/>
+
+                    <Image Grid.Row="2" Grid.Column="0" 
+                           Source="care.png" HeightRequest="50" />
+
+                    <Button Grid.Row="2" Grid.Column="1"
+                        x:Name="cnslBttn" Text="Counseling"  FontAttributes="Bold" 
+                        TextColor="Black" FontSize="20"                 
+                        BackgroundColor=
+                            "{x:Static local:ColorCnsts.ButtonColor}" 
+                        Clicked="OnMedSrvcsPageBtnClckd"/>
+                    
+                    <Image Grid.Row="3" Grid.Column="0" 
+                           Source="dentist.png" HeightRequest="50" />
+
+                    <Button Grid.Row="3" Grid.Column="1"
+                        x:Name="dntlBttn" Text="Dental"  FontAttributes="Bold" 
+                        TextColor="Black" FontSize="20"                 
+                        BackgroundColor=
+                            "{x:Static local:ColorCnsts.ButtonColor}" 
+                        Clicked="OnMedSrvcsPageBtnClckd"/>
+
+
+                </Grid>
+
+            </StackLayout>
+
+       </ScrollView>
+            
+  </ContentPage.Content>
+    
+</ContentPage>

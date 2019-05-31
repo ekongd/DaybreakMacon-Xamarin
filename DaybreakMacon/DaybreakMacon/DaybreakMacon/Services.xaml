@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="DaybreakMacon.Services"
+             xmlns:local="clr-namespace:DaybreakMacon"
+            Title="Services"
+             BackgroundColor=
+             "{x:Static local:ColorCnsts.DayBreakBackgroundColor}"
+             NavigationPage.BackButtonTitle="  ">
+
+
+    <ContentPage.Padding>
+        <OnPlatform x:TypeArguments="Thickness"
+                    iOS="20, 40, 20, 20"
+                    Android="20, 20, 20, 20" />
+    </ContentPage.Padding>
+
+
+    <ContentPage.Content>
+
+        <ScrollView>
+
+            <StackLayout   VerticalOptions="FillAndExpand"
+                           HorizontalOptions="FillAndExpand"
+                           Orientation="Vertical"
+                           Spacing="10" >
+
+                <Grid RowSpacing="10">
+                    <!-- 8 rows 2 columns  -->
+                    <Grid.RowDefinitions >
+                        <RowDefinition Height="Auto" />
+                        <RowDefinition Height="Auto" />
+                        <RowDefinition Height="Auto" />
+                        <RowDefinition Height="Auto" />
+                        <RowDefinition Height="Auto" />
+                        <RowDefinition Height="Auto" />
+                        <RowDefinition Height="Auto" />
+                        <RowDefinition Height="Auto" />
+                        <RowDefinition Height="Auto" />
+                    </Grid.RowDefinitions>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="Auto" />
+                        <ColumnDefinition Width="*" />
+                    </Grid.ColumnDefinitions>
+
+                    <Image Grid.Row="0" Grid.Column="0"
+                           Source="news.png" HeightRequest="50" />
+
+                    <Button Grid.Row="0" Grid.Column="1"
+                        x:Name="newsBttn" Text="Latest News"  FontAttributes="Bold" 
+                        TextColor="Black" FontSize="20"                
+                        BackgroundColor=
+                            "{x:Static local:ColorCnsts.ButtonColor}" 
+                        Clicked="OnFaceBkBtnClckd"/>
+
+                    <Image Grid.Row="1" Grid.Column="0"
+                           Source="medical.png" HeightRequest="50" />
+
+                    <Button Grid.Row="1" Grid.Column="1"
+                        x:Name="medBttn" Text="Medical"  FontAttributes="Bold" 
+                        TextColor="Black" FontSize="20"                 
+                        BackgroundColor=
+                            "{x:Static local:ColorCnsts.ButtonColor}" 
+                        Clicked="OnSrvcsPageBtnClckd"/>
+
+                    <Image Grid.Row="2" Grid.Column="0"
+                           Source="meals.png" HeightRequest="50" />
+
+                    <Button Grid.Row="2" Grid.Column="1"
+                        x:Name="mealsBttn" Text="Meals"  FontAttributes="Bold" 
+                        TextColor="Black" FontSize="20"                 
+                        BackgroundColor=
+                            "{x:Static local:ColorCnsts.ButtonColor}" 
+                        Clicked="OnSrvcsPageBtnClckd"/>
+
+                    <Image Grid.Row="3" Grid.Column="0"
+                           Source="foodbank.png" HeightRequest="50" />
+
+                    <Button Grid.Row="3" Grid.Column="1"
+                        x:Name="foodBnkBttn" Text="Food Banks"  FontAttributes="Bold" 
+                        TextColor="Black" FontSize="20"                 
+                        BackgroundColor=
+                            "{x:Static local:ColorCnsts.ButtonColor}" 
+                        Clicked="OnSrvcsPageBtnClckd"/>
+
+                    <Image Grid.Row="4" Grid.Column="0"
+                           Source="clothing.png" HeightRequest="50" />
+
+                    <Button Grid.Row="4" Grid.Column="1"
+                        x:Name="clothngBttn" Text="Clothing"  FontAttributes="Bold" 
+                        TextColor="Black" FontSize="20"                 
+                        BackgroundColor=
+                            "{x:Static local:ColorCnsts.ButtonColor}" 
+                        Clicked="OnSrvcsPageBtnClckd"/>
+
+                    <Image Grid.Row="5" Grid.Column="0"
+                           Source="laundry.png" HeightRequest="50" />
+
+                    <Button Grid.Row="5" Grid.Column="1"
+                        x:Name="lndryBttn" Text="Laundry"  FontAttributes="Bold" 
+                        TextColor="Black" FontSize="20"                 
+                        BackgroundColor=
+                            "{x:Static local:ColorCnsts.ButtonColor}" 
+                        Clicked="OnSrvcsPageBtnClckd"/>
+
+                    <Image Grid.Row="6" Grid.Column="0"
+                           Source="shower.png" HeightRequest="50" />
+
+                    <Button Grid.Row="6" Grid.Column="1"
+                        x:Name="shwrsBttn" Text="Showers"  FontAttributes="Bold" 
+                        TextColor="Black" FontSize="20"                 
+                        BackgroundColor=
+                            "{x:Static local:ColorCnsts.ButtonColor}" 
+                        Clicked="OnSrvcsPageBtnClckd"/>
+
+                    <Image Grid.Row="7" Grid.Column="0"
+                           Source="housing.png" HeightRequest="50" />
+
+                    <Button Grid.Row="7" Grid.Column="1"
+                        x:Name="housingBttn" Text="Housing"  FontAttributes="Bold" 
+                        TextColor="Black" FontSize="20"                 
+                        BackgroundColor=
+                            "{x:Static local:ColorCnsts.ButtonColor}" 
+                        Clicked="OnSrvcsPageBtnClckd"/>
+
+                    <Image Grid.Row="8" Grid.Column="0"
+                           Source="oth.png" HeightRequest="50" />
+
+                    <Button Grid.Row="8" Grid.Column="1"
+                        x:Name="othSrvcsBttn" Text="Other Services"  FontAttributes="Bold" 
+                        TextColor="Black" FontSize="20"                 
+                        BackgroundColor=
+                            "{x:Static local:ColorCnsts.ButtonColor}" 
+                        Clicked="OnSrvcsPageBtnClckd"/>
+
+                </Grid>
+
+            </StackLayout>
+
+        </ScrollView>
+
+    </ContentPage.Content>
+
+</ContentPage>
